@@ -3,9 +3,12 @@ import styles from './footer.module.css';
 
 const Footer = () => {
     return (
-        <div>
+        <>
+            <footer>
+                <div>это футер</div>
+            </footer>
 
-        </div>
+        </>
     );
 };
 

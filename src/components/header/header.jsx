@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './header.module.css';
+import logo from '../Navbar/logo.svg'
 
 const Header = () => {
     return (
         <>
             <div className={styles.container}>
-                <img className={styles.logo} alt=""/>
+                <img src={logo} className={styles.logo} alt="логотип кофе"/>
                 <div className={styles.ava} >
                     <div className={styles.menu_container}>
                         <div className={styles.menu}>

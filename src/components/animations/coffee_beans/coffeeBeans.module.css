@@ -1,0 +1,50 @@
+.container{
+    height: 60vh;
+}
+.cup{
+    position: relative;
+    width: 20%;
+
+    top:100px;
+}
+.coffee {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotateZ(45deg);
+    overflow-y: hidden;
+    /*transform: rotateZ(45deg);*/
+}
+
+.shooting_coffee{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 2px;
+
+    animation: falling 3000ms ease-in-out infinite;
+}
+.shooting_coffee::before, .shooting_star::after {
+    content: url("coffee-bean.svg");
+    position: absolute;
+    top: -100px;
+    right: 0;
+    height: 2px;
+
+}
+
+.shooting_coffee:nth-child(1) {
+    -webkit-animation-delay: 5146ms;
+    animation-delay: 5146ms;
+}
+@keyframes falling {
+    0% {
+        top:-100px;
+    }
+    30% {
+        top:100px;
+    }
+    100% {
+        top:1000px;
+    }
+}
