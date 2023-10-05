@@ -39,12 +39,12 @@
 }
 @keyframes falling {
     0% {
-        top:-100px;
+        top:60vh;;
     }
     30% {
         top:100px;
     }
     100% {
-        top:1000px;
+        top:-60vh;;
     }
 }

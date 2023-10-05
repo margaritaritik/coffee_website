@@ -5,6 +5,7 @@
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -16,17 +17,17 @@ body {
     flex: 1 0 auto;
 
     padding: 1rem;/*это свойство можно удалить, добавлено для наглядности*/
-    background: #e6f2ff;/*это свойство можно удалить, добавлено для наглядности*/
+    /*background: #e6f2ff;!*это свойство можно удалить, добавлено для наглядности*!*/
 }
 footer {
     flex: 0 0 auto;
 
     padding: 1rem;/*это свойство можно удалить, добавлено для наглядности*/
-    background: #e6ffe6;/*это свойство можно удалить, добавлено для наглядности*/
+    /*background: #e6ffe6;!*это свойство можно удалить, добавлено для наглядности*!*/
 }
 
 .App {
-    text-align: center;
+    /*text-align: center;*/
 }
 .img_main{
     width: 100px;
@@ -148,4 +149,38 @@ footer {
     flex: 1 1 auto;
     padding: 15px;
     overflow: auto;
+}
+
+.block_main{
+    width:100%;
+    height: auto;
+    background-color: #ffffff;
+
+}
+.block_main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+.block_main img{
+    position: relative;
+    left: 71vw;
+    top: -60vh;
+}
+.citata{
+    width:44vw;
+    color: #3b2323;
+    position: relative;
+    /*right: 116px;*/
+    top: 55vh;
+    font-size: 2vw;
+}
+.citata p:last-child{
+    color: #464246;
+padding-right: 50px;
+    text-align: right;
+    /*right: 116px;*/
+    top: 20%;
 }

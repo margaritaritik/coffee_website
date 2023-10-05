@@ -9,13 +9,14 @@ const History = () => {
         <>
             <div className={styles.App}>
                 <div className={styles.wrapper}>
-
+                    <Navbar></Navbar>
                     <div className={styles.content}>
-                        <Navbar></Navbar>
+
                         {/*<Header></Header>*/}
                         <Coffee></Coffee>
                         {/*<Loader></Loader>*/}
                     </div>
+                    <div>history</div>
 
                     <Footer></Footer>
                 </div>
