@@ -8,7 +8,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     return (
         <header className={style.header}>
-            <div className='container'>
+            <div className={style.container}>
                 <div className={style.box}>
                     <div className={style.logo_image}>
                         <img src={Logo} className={style.logo} alt="логотип кофе" />

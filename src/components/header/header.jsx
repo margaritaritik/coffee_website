@@ -4,7 +4,7 @@ import logo from '../Navbar/logo.svg'
 
 const Header = () => {
     return (
-        <>
+        <div className={styles.container_header}>
             <div className={styles.container}>
                 <img src={logo} className={styles.logo} alt="логотип кофе"/>
                 <div className={styles.ava} >
@@ -19,7 +19,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

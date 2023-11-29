@@ -1,11 +1,11 @@
 .container{
-    height: 60vh;
+    /*height: 60vh;*/
 }
 .cup{
+    width: 40%;
     position: relative;
-    width: 20%;
-
-    top:100px;
+    left: 53vw;
+    top: 10vh;
 }
 .coffee {
     position: relative;

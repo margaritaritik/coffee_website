@@ -1,9 +1,12 @@
 .header {
 
-    background-color: #ffffff;
+
+}
+.container{
+    background-color: #ffffff14;
     left: 0;
     top: 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 .logo{
@@ -17,7 +20,7 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    /*border-bottom: 1px solid #ffffff;*/
 }
 
 .logo_image {

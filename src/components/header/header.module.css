@@ -1,3 +1,6 @@
+.container_header{
+    position: absolute;
+}
 
 .container{
     z-index: 1000;

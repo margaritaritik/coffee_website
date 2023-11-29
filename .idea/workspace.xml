@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/copy-space-coffee-beans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/file 1 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/l1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/l2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/l3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/l4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/l5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/History.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Napitki.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Napitki.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Polza_i_vred.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Polza_i_vred.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Statistika.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Statistika.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Zerna.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Zerna.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/animations/coffee_beans/CoffeeBeans.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animations/coffee_beans/CoffeeBeans.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/animations/coffee_beans/coffeeBeans.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animations/coffee_beans/coffeeBeans.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка/DishesByTypeOfCuisine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,11 +62,11 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images" />
       <recent name="D:\2023\coffee_website\build\static" />
       <recent name="D:\2023\coffee_website\src\components\Navbar" />
       <recent name="D:\2023\coffee_website\src\components\animations\coffee_beans" />
       <recent name="D:\2023\coffee_website\src\components\header" />
-      <recent name="D:\2023\coffee_website\src\components\footer" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -109,7 +117,12 @@
       <workItem from="1693467149301" duration="24840000" />
       <workItem from="1695653250436" duration="2604000" />
       <workItem from="1695815779444" duration="21000" />
-      <workItem from="1695831098998" duration="6195000" />
+      <workItem from="1695831098998" duration="8382000" />
+      <workItem from="1696581448725" duration="1783000" />
+      <workItem from="1698749026296" duration="1626000" />
+      <workItem from="1699109498849" duration="6367000" />
+      <workItem from="1699173102533" duration="593000" />
+      <workItem from="1700903551102" duration="8596000" />
     </task>
     <servers />
   </component>

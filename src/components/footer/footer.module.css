@@ -1,3 +1,23 @@
 .footer {
 
 }
+
+.container_header{
+    display: flex;
+}
+
+.mail{
+
+}
+.social_media{
+
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_links{
+
+}

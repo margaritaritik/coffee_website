@@ -165,22 +165,114 @@ footer {
 }
 
 .block_main img{
-    position: relative;
-    left: 71vw;
-    top: -60vh;
+    /*position: relative;*/
+    /*left: 71vw;*/
+    /*top: -60vh;*/
 }
 .citata{
     width:44vw;
     color: #3b2323;
-    position: relative;
+    /*position: relative;*/
     /*right: 116px;*/
-    top: 55vh;
+    /*top: 55vh;*/
     font-size: 2vw;
 }
 .citata p:last-child{
     color: #464246;
-padding-right: 50px;
+margin-right: 50px;
     text-align: right;
     /*right: 116px;*/
     top: 20%;
+}
+
+.content_main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.background_main{
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: #61dafb;*/
+    height: 100vh;
+    min-height: 500px;
+    transform-style: preserve-3d;
+}
+
+.cup{
+
+}
+
+.cup_of_coffee{
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    width: 100%;
+    height: 100vh;
+
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    inset: -5vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cup_layer1{
+    position: absolute;
+width: 100%;
+z-index: -100;
+}
+.cup_layer2{
+    position: absolute;
+    width: 100%;
+    z-index: -100;
+}
+.cup_layer3{
+    position: absolute;
+    width: 100%;
+    z-index: -100;
+}
+
+.cup_layer1 img{
+width: 100%;
+    height: 90vh;
+transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
+    transform-origin: center;
+}
+.cup_layer2 img{
+    width: 100%;
+    height: 90vh;
+    transform: translateZ(-156px) translateX(167px) translateY(-18px) scale(1.0);
+    transform-origin: center;
+}
+.cup_layer3 img{
+    width: 100%;
+    height: 90vh;
+    transform: translateZ(-98px) translateX(64px) translateY(-18px) scale(0.90);
+    transform-origin: center;
+
+}
+.container_parallax{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.container_parallax img{
+/*height: 100vh;*/
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
