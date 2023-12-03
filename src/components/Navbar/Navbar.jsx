@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className={style.container}>
                 <div className={style.box}>
                     <div className={style.logo_image}>
-                        <img src={Logo} className={style.logo} alt="логотип кофе" />
+                        <a href='/'><img src={Logo} className={style.logo} alt="логотип кофе" /></a>
                     </div>
                     <ul
                         className={
