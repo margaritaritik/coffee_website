@@ -11,7 +11,7 @@ const Zerna = () => {
                 <div className={styles.wrapper}>
                     <Navbar></Navbar>
                     <div className={styles.content}>
-
+                        <h1>ВИДЫ КОФЕ</h1>
                         {/*<Header></Header>*/}
 
                         {/*<Loader></Loader>*/}

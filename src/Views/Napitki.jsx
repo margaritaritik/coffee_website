@@ -11,7 +11,7 @@ const Napitki = () => {
                 <div className={styles.wrapper}>
                     <Navbar></Navbar>
                     <div className={styles.content}>
-
+                        <h1>НАПИТКИ КОФЕ</h1>
                         {/*<Header></Header>*/}
 
                         {/*<Loader></Loader>*/}

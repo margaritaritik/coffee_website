@@ -11,9 +11,9 @@ const Statistika = () => {
                 <div className={styles.wrapper}>
                     <Navbar></Navbar>
                     <div className={styles.content}>
-
+                        <h1>СТАТИСТИКА КОФЕ</h1>
                         {/*<Header></Header>*/}
-                        <Coffee></Coffee>
+                        {/*<Coffee></Coffee>*/}
                         {/*<Loader></Loader>*/}
                     </div>
                     <div>statistika</div>
