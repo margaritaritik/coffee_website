@@ -172,9 +172,9 @@ footer {
 .citata{
     width:44vw;
     color: #3b2323;
-    /*position: relative;*/
+    position: relative;
     /*right: 116px;*/
-    /*top: 55vh;*/
+    top: 55vh;
     font-size: 2vw;
 }
 .citata p:last-child{
@@ -262,17 +262,54 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
 
 }
 .container_parallax{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -100;
-    transform-style: preserve-3d;
+    perspective: 1000px;
     overflow: hidden;
+    height: 100vh;
+    min-height: 500px;
+    transform-style: preserve-3d;
+    will-change: transform;
 }
 
 .container_parallax img{
 /*height: 100vh;*/
-    width: 100%;
+/*    width: 100%;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+
+    position: absolute;
+    inset: -5vw;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.layer1{
+
+}
+.layer2{
+z-index: 100;
+    /* transform: translate3d(10px, 10px, 10px); */
+    transform: translate3d(64vw, 42vh, -481px);
+}
+
+.layer3{
+    width: 100%;
+    /* transform: translate3d(10px, 10px, 10px); */
+    transform: translate3d(0px, 100vh, 10px) scale3d(1.5, 1.5, 1.5);
+
+}
+.shadow {
+    transform-origin: center;
+    position: absolute;
+    width: 175px;
+    height: 100px;
+    background: #232627bf;
+    z-index: 97;
+    box-shadow: 33px -1px 20px 19px #232627c7;
+    border-radius: 50%;
+    /* transform: translate3d(10px, 10px, 10px); */
+    transform: translate3d(93vw, 42vh, -481px) scale3d(2.5, 0.5, 1.5);
 }

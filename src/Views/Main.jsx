@@ -6,7 +6,9 @@ import Coffee from '../components/animations/coffee_beans/CoffeeBeans'
 import Navbar from "../components/Navbar/Navbar";
 import coffee_cup from "../images/file 1 (1).png";
 import coffee_main from "../images/copy-space-coffee-beans.jpg";
-
+import cup_coffee from '../images/1.png'
+import table from '../images/2.png'
+import forest from '../images/layer-1.jpg'
 
 import layer1 from "../images/l1.png"
 import layer2 from "../images/l2.png"
@@ -21,9 +23,19 @@ const Main = () => {
         <>
             <div className={styles.App}>
                 <div className={styles.wrapper}>
-                    <Navbar></Navbar>
+
                     <div className={styles.container_parallax}>
-                        <img src={coffee_main}/>
+                        <img  className={styles.layer1} src={forest}/>
+                        <img  className={styles.layer2}  src={cup_coffee}></img>
+                        <img className={styles.layer3} src={table}></img>
+                        <Navbar></Navbar>
+                        <div className={styles.citata}>
+                            <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
+                            <p> - Александр Дюма</p>
+                        </div>
+                        {/*<img className={styles.layer1} src={cup_coffee}/>*/}
+                        {/*<img className={styles.layer2} src={table}/>*/}
+
                     </div>
                     <div className={styles.content}>
 
@@ -40,17 +52,14 @@ const Main = () => {
                         {/*        <img src={layer3}/>*/}
                         {/*    </div>*/}
                         {/*</div>*/}
-                        <div className={styles.content_main}>
-                            <div className={styles.citata}>
-                                <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
-                                <p> - Александр Дюма</p>
-                            </div>
+                        {/*<div className={styles.content_main}>*/}
+
 
                             {/*<div className={styles.background_main}>*/}
 
                             {/*    <img src={coffee_cup} alt="cup coffee" className={styles.cup}></img>*/}
                             {/*</div>*/}
-                        </div>
+                        {/*</div>*/}
 
                         <div className={styles.facts}>
                             <h2>ФАКТЫ О КОФЕ</h2>
