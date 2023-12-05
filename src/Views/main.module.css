@@ -306,10 +306,10 @@ z-index: 100;
     position: absolute;
     width: 175px;
     height: 100px;
-    background: #232627bf;
+    background: #2326279e;
     z-index: 97;
-    box-shadow: 33px -1px 20px 19px #232627c7;
+    box-shadow: 10px -1px 20px 15px #2326279e;
     border-radius: 50%;
     /* transform: translate3d(10px, 10px, 10px); */
-    transform: translate3d(93vw, 42vh, -481px) scale3d(2.5, 0.5, 1.5);
+    transform: translate3d(83vw, 104vh, -481px) scale3d(2.5, 0.5, 1.5);
 }

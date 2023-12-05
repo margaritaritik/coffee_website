@@ -27,6 +27,7 @@ const Main = () => {
                     <div className={styles.container_parallax}>
                         <img  className={styles.layer1} src={forest}/>
                         <img  className={styles.layer2}  src={cup_coffee}></img>
+                        <div className={styles.shadow}></div>
                         <img className={styles.layer3} src={table}></img>
                         <Navbar></Navbar>
                         <div className={styles.citata}>
