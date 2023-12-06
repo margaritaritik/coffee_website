@@ -287,7 +287,7 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
 
 
 .layer1{
-    transform: translate3d(0vw, 0vh, -912px) scale3d(1.5, 1.5, 1.5);
+    transform: translate3d(0vw, 0vh, -1912px) scale(2);
 }
 .layer2{
 z-index: 100;
@@ -297,13 +297,21 @@ z-index: 100;
 
 .layer3{
     width: 100%;
+    filter: blur(0.6px);
     /* transform: translate3d(10px, 10px, 10px); */
     transform: translate3d(0px, 100vh, 10px) scale3d(1.5, 1.5, 1.5);
-
 }
 .layer4{
     transform: translate3d(0vw, 81vh, -1209px) scale3d(3.5, 1.5, 1.5);
 }
+.layer23{
+    z-index: 1001;
+    filter: blur(11px);
+    opacity: 0.4;
+    /* transform: translate3d(10px, 10px, 10px); */
+    transform: translate3d(28vw, -45vh, -34px) scale(0.9);
+}
+
 .shadow {
     transform-origin: center;
     position: absolute;
