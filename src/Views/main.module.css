@@ -170,12 +170,18 @@ footer {
     /*top: -60vh;*/
 }
 .citata{
-    width:44vw;
+    border-radius: 20px;
+    /* filter: blur(1px); */
+    padding: 38px 0px;
+    background: #3b232321;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
     color: #3b2323;
     position: relative;
-    /*right: 116px;*/
-    top: 55vh;
-    font-size: 2vw;
+    /* right: 116px; */
+    top: 30vh;
+    font-size: 3vw;
 }
 .citata p:last-child{
     color: #464246;
@@ -287,7 +293,11 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
 
 
 .layer1{
-    transform: translate3d(0vw, 0vh, -1912px) scale(2);
+    filter: opacity(0.3);
+    width: 100%;
+    transform-origin: center;
+    /* transform: rotate(90deg); */
+    transform: translate3d(0vw, 0vh, -1006px) scale(2) rotate(90deg);
 }
 .layer2{
 z-index: 100;

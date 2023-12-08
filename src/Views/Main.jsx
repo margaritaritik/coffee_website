@@ -10,6 +10,7 @@ import cup_coffee from '../images/1.png'
 import table from '../images/2.png'
 // import forest from '../images/layer-1.jpg'
 import forest from '../images/summer-landscape-in-mountains-and-the-blue-sky.jpg'
+import coffeeBack from "../images/coffeeBack'.jpg"
 import layer1 from "../images/white-cloud (1).png"
 import layer2 from "../images/forest-mountains-PhotoRoom.png"
 import layer3 from "../images/1614556189_33-p-chashka-kofe-na-belom-fone-38 (1).png"
@@ -25,13 +26,14 @@ const Main = () => {
                 <div className={styles.wrapper}>
 
                     <div className={styles.container_parallax}>
-                        <img  className={styles.layer1} src={forest}/>
-                        <img  className={styles.layer1} src={layer1}/>
-                        <img  className={styles.layer4} src={layer2}/>
-                        <img  className={styles.layer23}  src={layer3}></img>
-                        <img  className={styles.layer2}  src={cup_coffee}></img>
-                        <div className={styles.shadow}></div>
-                        <img className={styles.layer3} src={table}></img>
+                        <img className={styles.layer1} src={coffeeBack}/>
+                        {/*<img  className={styles.layer1} src={forest}/>*/}
+                        {/*<img  className={styles.layer1} src={layer1}/>*/}
+                        {/*<img  className={styles.layer4} src={layer2}/>*/}
+                        {/*<img  className={styles.layer23}  src={layer3}></img>*/}
+                        {/*<img  className={styles.layer2}  src={cup_coffee}></img>*/}
+                        {/*<div className={styles.shadow}></div>*/}
+                        {/*<img className={styles.layer3} src={table}></img>*/}
                         <Navbar></Navbar>
                         <div className={styles.citata}>
                             <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
