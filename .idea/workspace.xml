@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
@@ -36,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images" />
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -110,7 +109,8 @@
       <workItem from="1699109498849" duration="6367000" />
       <workItem from="1699173102533" duration="593000" />
       <workItem from="1700903551102" duration="11308000" />
-      <workItem from="1701605711793" duration="3964000" />
+      <workItem from="1701605711793" duration="15342000" />
+      <workItem from="1702096933159" duration="5781000" />
     </task>
     <servers />
   </component>
