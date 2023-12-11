@@ -1,5 +1,7 @@
 * {
     margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
+    font-family: 'Jost', sans-serif;
+    color: #5f2e12;
 }
 
 html,
@@ -15,10 +17,11 @@ body {
 
 .content {
     flex: 1 0 auto;
-
-    padding: 1rem;/*это свойство можно удалить, добавлено для наглядности*/
+/*padding-top: 20px;*/
+    /*padding: 10rem;!*это свойство можно удалить, добавлено для наглядности*!*/
     /*background: #e6f2ff;!*это свойство можно удалить, добавлено для наглядности*!*/
 }
+
 footer {
     flex: 0 0 auto;
 
@@ -193,7 +196,7 @@ margin-right: 10vw;
 
 .content_main{
     display: flex;
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -276,6 +279,17 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
     will-change: transform;
 }
 
+.content:before {
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(86, 76, 67, 0.2), rgba(255, 192, 203, 0));
+    display: inline-block;
+    /*top: 100vh;*/
+padding: 0;
+}
+
 .container_parallax img{
 /*height: 100vh;*/
 /*    width: 100%;*/
@@ -338,7 +352,13 @@ z-index: 100;
 
 /*facts*/
 .facts{
- width: 100%;
+    /*height: 100vh;*/
+    width: 100%;
+    text-align: center;
+}
+
+.stages{
+    width: 100%;
     text-align: center;
 }
 
@@ -350,7 +370,7 @@ z-index: 100;
 
 }
 .facts .container_facts div{
-   width: 50vw;
+    width: 50vw;
     margin: 10px 10px 10px 10px;
 
 

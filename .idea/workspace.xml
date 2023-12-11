@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/main/components main/facts/facts_block.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages_of_preparation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/1-Ju1ZoEXsA-transformed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/facts/f2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
@@ -20,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,11 +67,11 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images\facts" />
       <recent name="D:\2023\coffee_website\src\images" />
       <recent name="D:\2023\coffee_website\build\static" />
       <recent name="D:\2023\coffee_website\src\components\Navbar" />
       <recent name="D:\2023\coffee_website\src\components\animations\coffee_beans" />
-      <recent name="D:\2023\coffee_website\src\components\header" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -110,7 +129,9 @@
       <workItem from="1699173102533" duration="593000" />
       <workItem from="1700903551102" duration="11308000" />
       <workItem from="1701605711793" duration="15342000" />
-      <workItem from="1702096933159" duration="5781000" />
+      <workItem from="1702096933159" duration="6525000" />
+      <workItem from="1702191939023" duration="6784000" />
+      <workItem from="1702269865095" duration="8367000" />
     </task>
     <servers />
   </component>
