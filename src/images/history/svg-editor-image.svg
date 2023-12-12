@@ -1,0 +1,15 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="412.999994" width="657.99999" y="0.249998" x="0.499995" stroke-width="1.5" fill="#fff"/>
+  <path stroke="#EDFFFF" id="svg_3" d="m1.508626,-4.749997c0,0 1.008636,248.484837 1.008636,248.484837c0,0 284.435217,0 283.930909,-0.252515c0.504308,0.252515 -0.504328,65.90908 -1.008636,65.656565c0.504308,0.252515 -284.939545,2.272717 -284.939545,2.272717c0,0 1.008636,83.838383 1.008636,83.838383c0,0 582.991331,-3.030303 582.991331,-3.030303c0,0 -3.025907,-393.939381 -3.530214,-394.191906c24.71156,-2.777778 -579.461117,-2.777778 -579.461117,-2.777778z" stroke-width="1.5" fill="#EDFFFF"/>
+ </g>
+</svg>

@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/main/components main/facts/facts_block.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages_of_preparation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/1-Ju1ZoEXsA-transformed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/f1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facts/f2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/history/cup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/history/svg-editor-image.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/History.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +58,11 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images\history" />
       <recent name="D:\2023\coffee_website\src\images\facts" />
       <recent name="D:\2023\coffee_website\src\images" />
       <recent name="D:\2023\coffee_website\build\static" />
       <recent name="D:\2023\coffee_website\src\components\Navbar" />
-      <recent name="D:\2023\coffee_website\src\components\animations\coffee_beans" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -131,7 +122,7 @@
       <workItem from="1701605711793" duration="15342000" />
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
-      <workItem from="1702269865095" duration="8367000" />
+      <workItem from="1702269865095" duration="18969000" />
     </task>
     <servers />
   </component>
