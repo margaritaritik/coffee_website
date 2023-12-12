@@ -1,22 +1,54 @@
 import React from 'react';
-import styles from "./main.module.css";
+import styles from "./napitki.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
+import coffee1 from "../images/napitki/1n.jpg";
+import coffee2 from "../images/napitki/2n.jpg";
+import coffee3 from "../images/napitki/3n.jpg";
+import coffee4 from "../images/napitki/4n.jpg";
+
+
 
 const Napitki = () => {
     return (
         <>
-            <div className={styles.App}>
+
                 <div className={styles.wrapper}>
-                    <Navbar></Navbar>
+                    <div className={styles.container_block}>
+                        <Navbar></Navbar>
+                        <div className={styles.napitki}>
+                            <div className={styles.block_img}>
+                                <img className={styles.layer} src={coffee1}/>
+                            </div>
+                            <div className={styles.block_img}>
+                                <img className={styles.layer} src={coffee2}/>
+                            </div>
+                            <div className={styles.block_img}>
+                                <img className={styles.layer} src={coffee3}/>
+                            </div>
+                            <div className={styles.block_img}>
+                                <img className={styles.layer} src={coffee4}/>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                        {/*<div id={styles.test}></div>*/}
+
+
+
+                    </div>
+
                     <div className={styles.content}>
-                        <h1>НАПИТКИ КОФЕ</h1>
+                        <h1>НАПИТКИ ИЗ ЗЕРЕН КОФЕ</h1>
                         {/*<Header></Header>*/}
 
                         {/*<Loader></Loader>*/}
-                    </div>
-                    <div>
+
                         <h2>Виды напитков кофе:</h2>
                        <p>Кофе может быть приготовлен в различных формах, включая:</p>
 
@@ -40,7 +72,7 @@ const Napitki = () => {
 
                     <Footer></Footer>
                 </div>
-            </div>
+
         </>
     );
 };
