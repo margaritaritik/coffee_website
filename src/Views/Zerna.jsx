@@ -1,15 +1,33 @@
 import React from 'react';
-import styles from "./main.module.css";
+import styles from "./zerna.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
+import coffee1 from "../images/zerna/1z.png";
+import coffee2 from "../images/zerna/3z.png";
+import coffee3 from "../images/zerna/5z.png";
+
 
 const Zerna = () => {
     return (
         <>
             <div className={styles.App}>
                 <div className={styles.wrapper}>
-                    <Navbar></Navbar>
+                    <div className={styles.container_block}>
+
+                        <div className={styles.zerna}>
+                            <div className={styles.block_img}>
+                                <img className={styles.layer} src={coffee2}/>
+                                {/*<img className={styles.layer2} src={coffee3}/>*/}
+                            </div>
+                            {/*<div className={styles.block_img}>*/}
+                            {/*    <img className={styles.layer} src={coffee2}/>*/}
+                            {/*</div>*/}
+                        </div>
+                        {/*<div id={styles.test}></div>*/}
+                        <Navbar></Navbar>
+                    </div>
+
                     <div className={styles.content}>
                         <h1>ВИДЫ КОФЕ</h1>
                         {/*<Header></Header>*/}

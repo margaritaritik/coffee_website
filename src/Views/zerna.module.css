@@ -1,0 +1,137 @@
+* {
+    margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
+    font-family: 'Jost', sans-serif;
+    color: #5f2e12;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    margin: 0 auto;
+    width: 70vw
+}
+
+.content p {
+
+}
+
+.container_block{
+    perspective: 1000px;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 500px;
+    transform-style: preserve-3d;
+    will-change: transform;
+
+}
+.block {
+    z-index: 0;
+    width: 50vw;
+    right: 0px;
+    height: 100vh;
+    background: antiquewhite;
+    /* text-align: right; */
+    position: absolute;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 78%, 50% 78%, 50% 56%, 0% 56%);
+}
+
+.block img{
+    width: 39vw;
+    position: absolute;
+    transform: translate(19vw, 26vh);
+}
+
+.block div{
+    font-weight: 600;
+    font-size: 44px;
+    position: relative;
+    top: 200px;
+    left: -29vw;
+    background: antiquewhite;
+    padding: 5px;
+}
+
+/*.block::after {*/
+/*    content: "";*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    background: #3b2323;*/
+
+/*}*/
+/*#test{*/
+/*    width: 20vw;*/
+/*    height: 5vh;*/
+/*    position: absolute;*/
+/*    top: 15px;*/
+/*    background: #3b2323;*/
+/*}*/
+
+.container_block img{
+    position: absolute;
+    inset: -5vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_block{
+    position: absolute;
+    top: 19vh;
+    right: 50vw;
+    text-transform: uppercase;
+    font-size: 47px;
+    padding: 56px 130px;
+    background: antiquewhite;
+}
+.title_block_coffee{
+    position: absolute;
+    top: 63vh;
+    right: 32vw;
+    text-transform: uppercase;
+    font-size: 47px;
+    z-index: 8;
+}
+
+.zerna{
+    position: absolute;
+    background: #895862;
+    height: 100vh;
+    width: 100%;
+}
+
+.layer{
+    width: 100%;
+    transform-origin: center;
+    /* transform: rotate(90deg); */
+    transform: translate3d(-13vw, 17vh, -6px) scale(1.7);
+
+}
+.layer2{
+    width: 100%;
+    transform-origin: center;
+    /* transform: rotate(90deg); */
+    transform: translate3d(-13vw, 17vh, -6px) scale(1.2);
+
+}
+
+.block_img{
+    width: 20vw;
+    height: 40vw;
+    margin: 0 auto;
+    transform-origin: center;
+    transform: translate3d(10vw, 17vh, 10px);
+    background: #48130f;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+
+}
