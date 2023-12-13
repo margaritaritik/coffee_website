@@ -5,7 +5,7 @@ import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
 import coffeeBack from "../images/history/cup.jpg";
 // import history1 from "../images/history/h1.png";
-import history1 from "../images/history/1-Ju1ZoEXsA-transformed (1).png";
+import history1 from "../images/history/8i.jpg";
 
 
 const History = () => {

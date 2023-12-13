@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/zerna/1z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/zerna/2z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/zerna/3z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/zerna/5z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/history/8i.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Zerna.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Zerna.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/napitki.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/History.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/history.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +59,9 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images\history" />
       <recent name="D:\2023\coffee_website\src\images\zerna" />
       <recent name="D:\2023\coffee_website\src\images\napitki" />
-      <recent name="D:\2023\coffee_website\src\images\history" />
       <recent name="D:\2023\coffee_website\src\images\facts" />
       <recent name="D:\2023\coffee_website\src\images" />
     </key>
@@ -128,7 +124,7 @@
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
       <workItem from="1702269865095" duration="27540000" />
-      <workItem from="1702445696287" duration="9579000" />
+      <workItem from="1702445696287" duration="10319000" />
     </task>
     <servers />
   </component>
