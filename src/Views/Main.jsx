@@ -18,6 +18,7 @@ import layer1 from "../images/white-cloud (1).png"
 import layer2 from "../images/forest-mountains-PhotoRoom.png"
 import layer3 from "../images/1614556189_33-p-chashka-kofe-na-belom-fone-38 (1).png"
 import back_coffee_tree from "../images/facts/f1.png"
+import SliderCoffee from "../components/sliders/slider coffee/slider_coffee";
 
 const Main = () => {
     const [mousePos, setMousePos] = useState({});
@@ -77,6 +78,10 @@ const Main = () => {
                             <h2 className={styles.title_facts}>ФАКТЫ О КОФЕ</h2>
 
                            <Facts/>
+
+                        </div>
+                        <div className={styles.slider}>
+                            <SliderCoffee></SliderCoffee>
                         </div>
                     </div>
 

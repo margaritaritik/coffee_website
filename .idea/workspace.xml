@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/statistika.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/statistika/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Statistika.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Statistika.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/zerna" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parallax" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,11 +60,11 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images\slider\coffee" />
       <recent name="D:\2023\coffee_website\src\images\statistika" />
       <recent name="D:\2023\coffee_website\src\images\history" />
       <recent name="D:\2023\coffee_website\src\images\zerna" />
       <recent name="D:\2023\coffee_website\src\images\napitki" />
-      <recent name="D:\2023\coffee_website\src\images\facts" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -124,7 +125,7 @@
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
       <workItem from="1702269865095" duration="27540000" />
-      <workItem from="1702445696287" duration="13437000" />
+      <workItem from="1702445696287" duration="17768000" />
     </task>
     <servers />
   </component>
