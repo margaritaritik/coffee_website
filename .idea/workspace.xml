@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/history/1-Ju1ZoEXsA-transformed (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/history/1-Ju1ZoEXsA-transformed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/history/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/napitki/3N.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/napitki/4N.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/History.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Napitki.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Napitki.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/history.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/napitki.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +120,8 @@
       <workItem from="1701605711793" duration="15342000" />
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
-      <workItem from="1702269865095" duration="27086000" />
+      <workItem from="1702269865095" duration="27540000" />
+      <workItem from="1702445696287" duration="3712000" />
     </task>
     <servers />
   </component>

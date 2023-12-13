@@ -3,10 +3,10 @@ import styles from "./napitki.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
-import coffee1 from "../images/napitki/1n.jpg";
-import coffee2 from "../images/napitki/2n.jpg";
-import coffee3 from "../images/napitki/3n.jpg";
-import coffee4 from "../images/napitki/4n.jpg";
+import coffee1 from "../images/napitki/1n.png";
+import coffee2 from "../images/napitki/2n.png";
+import coffee3 from "../images/napitki/3n.png";
+import coffee4 from "../images/napitki/4n.png";
 
 
 
