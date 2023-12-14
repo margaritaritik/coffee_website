@@ -1,45 +1,55 @@
-.container{
-    perspective: 1000px;
+.container_slider{
+    width: 80vw;
+    margin: 0 auto;
     overflow: hidden;
-    margin: 50px 0;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    animation: 10s ease-in-out 1s infinite alternate slider;
+    /*animation-timing-function: cubic-bezier(.8,1.5,.2,-1);*/
 }
 .block{
-    /*width: 200px;*/
-    /*height: 50vh;*/
-
+    width: 15vw;
     min-height: 500px;
-    transform-style: preserve-3d;
-    will-change: transform;
+    margin: 0px 76px 0px 0px;
 }
-.block div{
-
-    position: absolute;
-    inset: -5vw;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container .block:last-child {
+    width: 15vw;
+    min-height: 500px;
+    margin: 0px 0px 0px 0px;
 }
 
 .layer1 {
-    width: 259px;
+    text-align: center;
+    /*width: 200px;*/
     height: 300px;
-     /*border: 1px solid;*/
     border-radius: 26px;
     margin: 120px auto;
-    /*background: #cba07c;*/
-
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 
 }
 
 .layer1 p{
-    position: absolute;
-    top: 265px;
+
+    top: 35vh;
+    width: 100%;
+    position: relative;
     font-size: 24px;
     font-weight: 500;
 }
+
+.layer2{
+ position: relative;
+}
+
+
+
+
+
+
+
 
 .layer2_img{
     width: 334px;
@@ -49,5 +59,43 @@
 
 .latte{
     width: 334px;
-    transform: translate3d(3vw, -14vh, -10px) scale(0.6);
+    transform: translate3d(-5vw, -68vh, -5px) scale(0.5);
+}
+.caputino{
+    width: 334px;
+    transform: translate3d(-4vw, -53vh, -10px) scale(0.7);
+}
+.espresso{
+    width: 334px;
+    transform: translate3d(-4vw, -53vh, -10px) scale(0.7);
+}
+.layer_espresso{
+    width: 334px;
+    filter: hue-rotate(325deg);
+    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 89deg);
+}
+
+.layer_latte{
+    width: 334px;
+    filter: hue-rotate(286deg);
+    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -2, 9, 185deg);
+}
+
+.layer_caputino{
+    width: 334px;
+    filter: hue-rotate(325deg);
+    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 89deg);
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+
+    }
+    100%{
+        transform: translateX(-27vw);
+    }
+
 }

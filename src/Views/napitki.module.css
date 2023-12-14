@@ -140,6 +140,11 @@ body {
 /*    transform: translate3d(19vw, 72vh, -1006px) scale(2);*/
 /*}*/
 
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
 .napitki {
     position: relative;
 }
