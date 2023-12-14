@@ -71,8 +71,8 @@
 }
 .layer_espresso{
     width: 334px;
-    filter: hue-rotate(325deg);
-    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 89deg);
+    filter: hue-rotate(271deg);
+    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 118deg);
 }
 
 .layer_latte{
@@ -84,6 +84,27 @@
 .layer_caputino{
     width: 334px;
     filter: hue-rotate(325deg);
+    transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 89deg);
+}
+
+.glasse{
+    width: 334px;
+    transform: translate3d(-19%, -76vh, -10px) scale(0.4);
+}
+.layer_glasse{
+    width: 334px;
+    filter: hue-rotate(86deg);
+    transform: translate3d(-44px, -89px, -138px) scale(0.8) rotate3d(-1, -1, 5, 224deg);
+}
+
+.frape{
+    width: 314px;
+    transform: translate3d(-20%, -74vh, -10px) scale(0.4);
+}
+
+.layer_frape{
+    width: 334px;
+    filter: hue-rotate(25deg);
     transform: translate3d(-49px, -90px, -138px) scale(0.8) rotate3d(-2, -1, 5, 89deg);
 }
 
