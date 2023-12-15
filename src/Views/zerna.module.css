@@ -61,22 +61,8 @@ body {
     padding: 5px;
 }
 
-/*.block::after {*/
-/*    content: "";*/
-/*    width: 20vw;*/
-/*    height: 5vh;*/
-/*    background: #3b2323;*/
 
-/*}*/
-/*#test{*/
-/*    width: 20vw;*/
-/*    height: 5vh;*/
-/*    position: absolute;*/
-/*    top: 15px;*/
-/*    background: #3b2323;*/
-/*}*/
-
-.container_block img{
+.zerna img{
     position: absolute;
     inset: -5vw;
     background-size: cover;
@@ -105,7 +91,7 @@ body {
 
 .zerna{
     position: absolute;
-    background: #895862;
+    background: #ac4a4a;
     height: 100vh;
     width: 100%;
 }

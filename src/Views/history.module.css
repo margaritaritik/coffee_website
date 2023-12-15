@@ -76,7 +76,7 @@ body {
 /*    background: #3b2323;*/
 /*}*/
 
-.container_block img{
+.history img{
     position: absolute;
     inset: -5vw;
     background-size: cover;
@@ -85,6 +85,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 .title_block{
     position: absolute;
     top: 19vh;

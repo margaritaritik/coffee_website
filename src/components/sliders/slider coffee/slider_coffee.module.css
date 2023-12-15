@@ -7,7 +7,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    animation: 10s ease-in-out 1s infinite alternate slider;
+    animation: 13s ease-in-out 5s infinite alternate slider;
     /*animation-timing-function: cubic-bezier(.8,1.5,.2,-1);*/
 }
 .block{

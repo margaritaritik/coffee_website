@@ -32,6 +32,12 @@ const Test = () => {
         { path: "zerna", element: <Zerna /> },
         { path: "statistika", element: <Statistika /> },
         { path: "history", element: <History /> },
+        { path: "napitki/latte", element: <History /> },
+        { path: "napitki/kappuchino", element: <History /> },
+        { path: "napitki/glyasse", element: <History /> },
+        { path: "napitki/frappe", element: <History /> },
+        { path: "napitki/espresso", element: <History /> },
+
     ]);
     return routes;
 };
