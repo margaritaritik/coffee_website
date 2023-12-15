@@ -38,8 +38,8 @@ const Main = () => {
     }, [mousePos]);
 
     useEffect(() => {
-        document.title = 'Main';
-        document.getElementsByTagName("META")[3].content="Your description main page";
+        document.title = 'Кофейный мир: новости, рецепты, история и культура кофе☕';
+        document.getElementsByTagName("META")[3].content="Мы собрали для вас самую актуальную информацию и поделимся секретами, как приготовить идеальный кофе в домашних условиях. На сайте \"Кофейный мир\" вы найдете все, что нужно знать о вашем любимом напитке!";
         const handleMouseMove = (event) => {
             setMousePos({ x: event.clientX, y: event.clientY });
         };

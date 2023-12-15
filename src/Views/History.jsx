@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from "./history.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
@@ -8,7 +8,12 @@ import coffeeBack from "../images/history/cup.jpg";
 import history1 from "../images/history/8i.jpg";
 
 
+
 const History = () => {
+    useEffect(() => {
+        document.title = 'История кофе - Легенды и факты о популярном напитке☕';
+        document.getElementsByTagName("META")[3].content="Мы собрали для вас самую актуальную информацию и поделимся секретами, как приготовить идеальный кофе в домашних условиях. На сайте \"Кофейный мир\" вы найдете все, что нужно знать о вашем любимом напитке!";
+    }, []);
     return (
         <>
 
