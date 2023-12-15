@@ -36,6 +36,24 @@ body {
     position: absolute;
     width: 100%;
 }
+.title_block{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.title_block p:first-child{
+   text-transform: uppercase;
+    margin: 25vh 0 0 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title_block p:last-child{
+
+margin-top: 20px;
+    font-size: 30px;
+    /*font-weight: bold;*/
+}
+
 .layer img{
 width: 50%;
     object-fit: cover;
@@ -110,16 +128,14 @@ width: 50%;
 
     width: 300px;
     height: 300px;
-    display: inline-block;
-    margin: 20px;
+    display: block;
+    margin: 49vh auto;
     -ms-perspective: 1200px;
     -o-perspective: 1200px;
     perspective: 1200px;
     -ms-perspective-origin: 50% 50%;
     -o-perspective-origin: 50% 50%;
     perspective-origin: 50% 50%;
-    /* transform-origin: left; */
-    transform: translate(36vw, 52vh);
 }
 
 @-moz-keyframes move-map {

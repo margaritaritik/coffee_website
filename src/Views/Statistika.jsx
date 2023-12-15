@@ -11,6 +11,10 @@ const Statistika = () => {
             <div className={styles.App}>
                 <div className={styles.wrapper}>
                     <div className={styles.container_block}>
+                        <div className={styles.title_block}>
+                            <p>Кофейная статистика</p>
+                            <p>по миру и странам</p>
+                        </div>
                         <div className={styles.layer}>
                             <section className={styles.stage}>
                                 <figure className={styles.ball}><span className={styles.shadow}></span></figure>
