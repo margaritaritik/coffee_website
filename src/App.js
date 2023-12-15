@@ -17,6 +17,7 @@ import Frappe from "./Views/coffee/frappe/frappe";
 import Glyasse from "./Views/coffee/glyasse/glyasse";
 import Kappuchino from "./Views/coffee/kappuchino/kappuchino";
 import Latte from "./Views/coffee/latte/latte";
+import Loader from "./Loader";
 const Component1 = () => {
     return <h1>foo</h1>;
 };
@@ -49,21 +50,13 @@ const Test = () => {
 
 
 function App() {
-    function someRequest() { //Simulates a request; makes a "promise" that'll run for 2.5 seconds
-        return new Promise(resolve => setTimeout(() => resolve(), 2500));
-    }
-    const [isLoading, setLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
-        someRequest().then(() => {
-            const loaderElement = document.querySelector(".loader-container");
-            if (loaderElement) {
-                loaderElement.remove();
-                setLoading(!isLoading);
-            }
-        });
-    });
-  return (
+        setTimeout(() => setIsLoading(false), 5000);
+    }, []);
+    return (
       <>
+          {isLoading && <Loader />}
               <Router>
                   <Test/>
               </Router>

@@ -66,6 +66,7 @@ width: 50%;
     width: 100%;
     height: 100%;
     margin: 0;
+    transition: 2s;
     border-radius: 50%;
     position: relative;
     -webkit-transform-style: preserve-3d;
@@ -76,6 +77,9 @@ width: 50%;
     -o-animation: move-map 30s infinite linear;
     -ms-animation: move-map 30s infinite linear;
     animation: move-map 30s infinite linear;
+}
+.ball:hover{
+    animation: none;
 }
 
 .ball:before {
