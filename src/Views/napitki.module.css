@@ -197,3 +197,39 @@ header{
     transform: translate(9vw, 45px);
     box-shadow: inset 0px 0px 40px 40px rgba(219, 166, 50, 0);
 }
+
+.napitki .block_img:first-child img{
+    transform: translate(12vw, 9vh);
+
+}
+.napitki .block_img:last-child img{
+    transform: translate(17vw, 8vh) scale(0.8);
+
+}
+.napitki .block_img:nth-child(2) img{
+
+    transform: translate(18vw, 10vh);
+}
+.napitki .block_img:nth-child(3) img{
+    transform: translate(13vw, 10vh);
+
+}
+
+@media (max-width: 800px) {
+    .napitki .block_img:last-child img{
+    transform: translate(19vw, 10vh) scale(1.8);
+    }
+
+    .napitki .block_img:first-child img{
+        transform: translate(14vw, 23vh) scale(2.0);
+
+
+}
+    .napitki .block_img:nth-child(2) img{
+        transform: translate(21vw, 24vh) scale(2.4);
+    }
+    .napitki .block_img:nth-child(3) img{
+        transform: translate(15vw, 11vh) scale(1.8);
+
+    }
+}

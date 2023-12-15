@@ -1,0 +1,39 @@
+* {
+    margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
+    font-family: 'Jost', sans-serif;
+    color: #5f2e12;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    margin: 0 auto;
+    width: 70vw
+}
+.container_block{
+    perspective: 1000px;
+    overflow: hidden;
+    /*height: 100vh;*/
+    min-height: 500px;
+    transform-style: preserve-3d;
+    will-change: transform;
+
+}
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.coffee{
+    position: relative;
+}
