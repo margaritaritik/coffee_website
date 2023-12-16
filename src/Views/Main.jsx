@@ -21,38 +21,24 @@ import back_coffee_tree from "../images/facts/f1.png"
 import SliderCoffee from "../components/sliders/slider coffee/slider_coffee";
 
 const Main = () => {
-    const [mousePos, setMousePos] = useState({});
-    const [positionX, setPositionX] = useState(0);
-    const [positionY, setPositionY] = useState(0);
-    const [styleParallax, setStyleParallax] = useState({});
-    const speed=0.05;
-    const forBackPos=5;
+    const [scroll, setScroll] = useState(0);
 
-    useEffect(() => {
-        // const setMouseParallaxStyle=()=>{
-            setPositionX(mousePos.x/100);
-            setPositionY(mousePos.y/100);
-            setStyleParallax({transform:`translate3d(${positionX/forBackPos}%,${positionY/forBackPos}%,-1000px) scale(2) rotate(90deg)`});
-            // console.log(`translate(${positionX/forBackPos}%,${positionY/forBackPos}%)`);
-        // }
-    }, [mousePos]);
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+    };
+
+    const handleUpButton = () => {
+        window.scrollTo(0, 100);
+    };
+
+
 
     useEffect(() => {
         document.title = 'Кофейный мир: новости, рецепты, история и культура кофе☕';
         document.getElementsByTagName("META")[3].content="Мы собрали для вас самую актуальную информацию и поделимся секретами, как приготовить идеальный кофе в домашних условиях. На сайте \"Кофейный мир\" вы найдете все, что нужно знать о вашем любимом напитке!";
-        const handleMouseMove = (event) => {
-            setMousePos({ x: event.clientX, y: event.clientY });
-        };
+        window.addEventListener("scroll", handleScroll);
 
-        window.addEventListener('mousemove', handleMouseMove);
-
-        return () => {
-            window.removeEventListener(
-                'mousemove',
-                handleMouseMove
-            );
-        };
-
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
@@ -61,7 +47,7 @@ const Main = () => {
                 <div className={styles.wrapper}>
 
                     <div className={styles.container_parallax}>
-                        <img style={styleParallax} className={styles.layer1} src={coffeeBack}/>
+                        {/*<img style={styleParallax} className={styles.layer1} src={coffeeBack}/>*/}
                         <Navbar></Navbar>
                         <div className={styles.citata}>
                             <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>

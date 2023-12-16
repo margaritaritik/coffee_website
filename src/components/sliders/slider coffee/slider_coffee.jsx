@@ -78,40 +78,6 @@ const SliderCoffee = () => {
         <div className={styles.container_slider}>
             <div className={styles.container}>
                 {listItems}
-                {/*<div className={styles.block}>*/}
-                {/*    <div className={styles.layer1}>*/}
-                {/*        <p>ЛАТТЭ</p>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer2}>*/}
-                {/*        <img className={styles.layer2_img} src={layer1}/>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer3}>*/}
-
-                {/*        <img className={styles.latte} src={latte}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className={styles.block}>*/}
-                {/*    <div className={styles.layer1}>*/}
-                {/*        <p>КАПУЧИНО</p>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer2}>*/}
-                {/*        <img className={styles.layer2_img} src={layer1}/>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer3}>*/}
-                {/*        <img className={styles.latte} src={caputino}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className={styles.block}>*/}
-                {/*    <div className={styles.layer1}>*/}
-                {/*        <p>ЛАТТЭ</p>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer2}>*/}
-                {/*        <img className={styles.layer2_img} src={layer1}/>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.layer3}>*/}
-                {/*        <img className={styles.latte} src={espresso}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
             </div>
         </div>
     );

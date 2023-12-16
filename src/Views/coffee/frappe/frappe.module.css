@@ -1,8 +1,4 @@
-* {
-    margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
-    font-family: 'Jost', sans-serif;
-    color: #5f2e12;
-}
+
 
 html,
 body {
@@ -23,7 +19,7 @@ body {
 .container_block{
     perspective: 1000px;
     overflow: hidden;
-    /*height: 100vh;*/
+    height: 100vh;
     min-height: 500px;
     transform-style: preserve-3d;
     will-change: transform;
@@ -36,4 +32,28 @@ header{
 }
 .coffee{
     position: relative;
+    display: flex;
+    width: 100%;
+    margin: 31vh auto;
+    justify-content: space-around;
+}
+.block_title{
+    text-align: center;
+    width: 50%;
+}
+.block_images{
+    width: 50%;
+}
+.block_images img:first-child{
+    transform: translate(8vw, 0vh) scale(1.9);
+}
+
+.block_images img:last-child{
+    width: 100vw;
+    height: 105vh;
+    position: relative;
+    top: -70vh;
+    z-index: -1;
+    transform: translate(-21vw, -5vh);
+    filter: hue-rotate(64deg) grayscale(0.3) saturate(1.0);
 }

@@ -2,12 +2,14 @@
     margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
     font-family: 'Jost', sans-serif;
     color: #5f2e12;
+
 }
 
 html,
 body {
     height: 100%;
     overflow-x: hidden;
+    background: linear-gradient(0deg, rgba(99, 42, 42, 0.28) 33%, rgb(240 85 122 / 0%) 98%);
 }
 
 .wrapper {
@@ -24,13 +26,12 @@ body {
     content: "";
     display: block;
     position: relative;
-    top: 0vh;
-    left: 35vw;
+    top: -1vh;
+    left: 34.2vw;
     width: 51vw;
-    z-index: -1;
+    z-index: 1;
     height: 100px;
-    /* background: linear-gradient(0deg, rgba(93,190,255,0) 0%, rgba(85,92,182,0) 29%, rgb(251 248 97) 82%); */
-    background: linear-gradient(4deg, rgba(93,190,255,0) 0%, rgba(85,92,182,0) 0%, rgb(240 232 217) 72%);
+    background: linear-gradient(0deg, rgb(186 161 161 / 0%) 0%, rgb(240 232 217) 100%);
 
 }
 
@@ -38,13 +39,16 @@ body {
     content: "";
     display: block;
     position: relative;
-    top: -101px;
+    top: -109px;
     left: -16vw;
-    width: 51vw;
-    z-index: -2;
+    width: 50.5vw;
+    z-index: 1;
     height: 100px;
     /* background: linear-gradient(0deg, rgba(93,190,255,0) 0%, rgba(85,92,182,0) 29%, rgb(251 248 97) 82%); */
-    background: linear-gradient(0deg, rgba(93,190,255,0) 0%, rgba(85,92,182,0) 0%, rgb(250 172 188) 72%);
+    /* background: linear-gradient(0deg, rgba(93,190,255,0) 0%, rgba(85,92,182,0) 0%, rgb(250 172 188) 72%); */
+    /* background: linear-gradient(0deg, rgba(85,92,182,0) 0%, rgb(250, 172, 188) 51%, rgba(240,85,122,0) 100%); */
+    background: linear-gradient(0deg, rgb(186 161 161 / 0%) 0%, rgb(250 172 188) 100%);
+
 }
 
 .content p {
