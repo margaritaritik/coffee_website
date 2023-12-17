@@ -17,6 +17,7 @@ const Zerna = () => {
 
                         <div className={styles.zerna}>
                             <div className={styles.block_img}>
+                                <h1>зерна</h1>
                                 <img className={styles.layer} src={coffee2}/>
                                 {/*<img className={styles.layer2} src={coffee3}/>*/}
                             </div>

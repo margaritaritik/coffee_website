@@ -53,8 +53,7 @@
 
 
 .zerna img{
-    position: absolute;
-    inset: -5vw;
+
     background-size: cover;
     background-position: center;
     display: flex;
@@ -87,10 +86,10 @@
 }
 
 .layer{
-    width: 100%;
-    transform-origin: center;
-    /* transform: rotate(90deg); */
-    transform: translate3d(-13vw, 17vh, -6px) scale(1.7);
+    position: absolute;
+    width: 32vw;
+    top: 13vh;
+    left: -21vw;
 
 }
 .layer2{
@@ -100,8 +99,18 @@
     transform: translate3d(-13vw, 17vh, -6px) scale(1.2);
 
 }
+.block_img h1{
+    text-transform: uppercase;
+    position: relative;
+    top: 7vh;
+    left: -11vw;
+    font-size: 59px;
+    color: #dfcbb3;
+    animation: 13s ease-in-out 5s infinite alternate block_title;
+}
 
 .block_img{
+    position: relative;
     width: 20vw;
     height: 40vw;
     margin: 0 auto;
@@ -111,7 +120,16 @@
     border-radius: 0 100% 100% 0 / 0 50% 50% 0;
 
 }
+@keyframes block_title {
+    0%{
+
+    }
+    100%{
+
+    }
+}
 /*mobile*/
 @media (max-width: 400px) {
+
 
 }

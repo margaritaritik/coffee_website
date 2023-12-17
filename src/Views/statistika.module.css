@@ -10,6 +10,15 @@
     width: 70vw;
 
 }
+.map{
+
+    text-align: center;
+}
+.map img{
+    width: 50vw;
+
+
+}
 
 .container_block{
     perspective: 1000px;

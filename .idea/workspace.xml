@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/blog.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/statistika/map-stat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Statistika.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Statistika.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/glyasse/glyasse.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/glyasse/glyasse.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/history.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/napitki.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Zerna.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Zerna.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/statistika.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/statistika.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/zerna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
     </list>
@@ -71,11 +64,11 @@
       <recent name="D:\2023\coffee_website\build\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website\src\images\statistika" />
+      <recent name="D:\2023\coffee_website\src\images" />
       <recent name="D:\2023\coffee_website\src\Views\coffee\frappe" />
       <recent name="D:\2023\coffee_website\src\Views\coffee\espresso" />
       <recent name="D:\2023\coffee_website\src\images\slider\coffee" />
-      <recent name="D:\2023\coffee_website\src\images\statistika" />
-      <recent name="D:\2023\coffee_website\src\images\history" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -136,7 +129,7 @@
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
       <workItem from="1702269865095" duration="27540000" />
-      <workItem from="1702445696287" duration="60946000" />
+      <workItem from="1702445696287" duration="67945000" />
     </task>
     <servers />
   </component>
