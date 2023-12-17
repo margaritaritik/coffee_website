@@ -8,8 +8,8 @@ html,
 body {
     height: 100%;
     overflow-x: hidden;
+    background: linear-gradient(0deg, #3b232354 0%, #5f2e122e 36%, rgb(240 85 122 / 0%) 100%);
 }
-
 .wrapper {
     display: flex;
     flex-direction: column;

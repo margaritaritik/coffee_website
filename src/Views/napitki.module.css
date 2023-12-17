@@ -1,14 +1,4 @@
-* {
-    margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
-    font-family: 'Jost', sans-serif;
-    color: #5f2e12;
-}
 
-html,
-body {
-    height: 100%;
-    overflow-x: hidden;
-}
 
 .wrapper {
     display: flex;

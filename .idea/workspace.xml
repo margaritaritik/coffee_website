@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/cup_espresso.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espres.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/cup-frappe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/blog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/blog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Statistika.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Statistika.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/coffee/glyasse/glyasse.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/glyasse/glyasse.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/history.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/napitki.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/statistika.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/statistika.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/zerna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +136,7 @@
       <workItem from="1702096933159" duration="6525000" />
       <workItem from="1702191939023" duration="6784000" />
       <workItem from="1702269865095" duration="27540000" />
-      <workItem from="1702445696287" duration="57158000" />
+      <workItem from="1702445696287" duration="60946000" />
     </task>
     <servers />
   </component>
