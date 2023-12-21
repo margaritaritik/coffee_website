@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/statistika/map-stat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Statistika.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Statistika.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Zerna.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Zerna.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/statistika.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/statistika.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/zerna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +125,7 @@
       <workItem from="1702191939023" duration="6784000" />
       <workItem from="1702269865095" duration="27540000" />
       <workItem from="1702445696287" duration="67945000" />
+      <workItem from="1703171239462" duration="1664000" />
     </task>
     <servers />
   </component>

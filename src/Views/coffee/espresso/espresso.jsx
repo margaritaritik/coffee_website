@@ -12,18 +12,21 @@ const Espresso = () => {
         <>
             <div className={styles.wrapper}>
                 <div className={styles.container_block}>
-                    <Navbar></Navbar>
+                    {/*<Navbar></Navbar>*/}
                     <div className={styles.coffee}>
-
-                        <div className={styles.block_title}>
-                            <h1>Еспрессо</h1>
-                            <p>Подпись для кофе</p>
+                        <div className={styles.coffee_title}>
+                            <h1>ESPRESSO</h1>
+                            <p>Lorem ipsum dolor sit amet, ceat possimus quam similique, sunt. Beatae commodi in quidem.</p>
                         </div>
-                        <div className={styles.block_images}>
+                        <div className={styles.coffee_block_image}>
                             <img src={cup}/>
-                            <img src={layer_cup}/>
                         </div>
-
+                        <div className={styles.coffee_description}>
+                            <h2>Espresso</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dignissimos dolor dolorem excepturi fuga non pariatur perspiciatis, totam. Aspernatur debitis distinctio iure modi nulla obcaecati possimus provident quos similique temporibus.
+                            </p>
+                        </div>
                     </div>
 
 

@@ -1,8 +1,12 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,700&family=Jost&family=Play&display=swap');
 .wrapper {
     display: flex;
     flex-direction: column;
+}
+
+body{
+    background: #eadfd0;
 }
 
 .content {
@@ -26,11 +30,42 @@ header{
 }
 .coffee{
     position: relative;
-    display: flex;
-    width: 100%;
-    margin: 31vh auto;
-    justify-content: space-around;
+    width: 70vw;
+    margin: 7vh auto;
 }
+
+.coffee_title{
+
+}
+h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+.coffee_block_image{
+
+width: 100%;
+    height: 65vh;
+    text-align: center;
+
+    margin: 0 auto;
+    background: brown;
+
+}
+
+.coffee_block_image img{
+    margin-top: 200px;
+}
+
+.coffee_description{
+
+}
+
+
+
+
 .block_title{
     text-align: center;
     width: 50%;
