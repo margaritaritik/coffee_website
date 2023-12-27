@@ -101,7 +101,7 @@ coffee website
 			Дата публикации
 	Блок 2 : Поисковая строка (поиск по названию);
  	Блок 3 : Список статей;
-
+макеты: https://www.figma.com/file/dKIev1z6BwFFQnloTArEpA/coffee-website?type=design&node-id=0-1&mode=design&t=QFfbB4NlAPrwwVaH-0
 
         
 
