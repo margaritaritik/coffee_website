@@ -106,7 +106,11 @@
     left: -11vw;
     font-size: 59px;
     color: #dfcbb3;
-    animation: 13s ease-in-out 5s infinite alternate block_title;
+    /*animation: 13s ease-in-out 5s infinite alternate block_title;*/
+}
+.block_img h1:active{
+
+    animation: 1s ease-in-out 5s  alternate block_title;
 }
 
 .block_img{
@@ -122,10 +126,10 @@
 }
 @keyframes block_title {
     0%{
-
+opacity: 0;
     }
     100%{
-
+opacity: 1;
     }
 }
 /*mobile*/

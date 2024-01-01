@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sliders/slider_two/slider_two.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sliders/slider_two/slider_two.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider coffee/slider_coffee.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/zerna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,7 @@
       <workItem from="1702445696287" duration="67945000" />
       <workItem from="1703171239462" duration="1664000" />
       <workItem from="1703411533750" duration="2738000" />
-      <workItem from="1703991576631" duration="15943000" />
+      <workItem from="1703991576631" duration="19275000" />
     </task>
     <servers />
   </component>

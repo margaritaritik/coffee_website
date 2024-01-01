@@ -19,7 +19,8 @@ h2{
 
 .container_facts p{
     font-size: 24px;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     text-align: start;
 }
 .facts .container_facts div{
@@ -38,8 +39,9 @@ h2{
     position: absolute;
     left: 0;
     top: 0;
-    width: 150px;
-    height: 180px;
+    width: 100%;
+    max-width: 150px;
+    /*height: 180px;*/
     /* transform: translate3d(45%, 19px,-80px) scale(1.5); */
     z-index: 2;
 }
@@ -50,7 +52,9 @@ h2{
     position: absolute;
     left: 45px;
     filter: hue-rotate(114deg);
-    transform: translate3d(-40px, 19px,-80px) scale(1.2) rotate(181deg);}
+    transform: translate3d(-40px, 19px,-80px) scale(1.2) rotate(181deg);
+    z-index: -10;
+}
 .fact_one{
     display: flex;
     width: 100%;
@@ -73,6 +77,8 @@ h2{
     left: 45px;
     filter: hue-rotate(102deg);
     transform: translate3d(-40px, 19px,-80px) scale(1.2) rotate(122deg);
+    z-index: -10;
+
 
 }
 
@@ -83,6 +89,8 @@ h2{
     left: 45px;
     filter: hue-rotate(138deg);
     transform: translate3d(-40px, 27px,-80px) scale(1.2) rotate(190deg);
+    z-index: -10;
+
 }
 
 .fact_four{
@@ -92,6 +100,8 @@ h2{
     left: 45px;
     filter: hue-rotate(82deg);
     transform: translate3d(-40px, 19px,-80px) scale(1.2) rotate(229deg);
+    z-index: -10;
+
 }
 .fact_five{
 
@@ -100,6 +110,7 @@ h2{
     left: 45px;
     filter: hue-rotate(143deg);
     transform: translate3d(-40px, 19px,-80px) scale(1.2) rotate(346deg);
+    z-index: -10;
 
 }
 
