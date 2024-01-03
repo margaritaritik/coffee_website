@@ -19,6 +19,7 @@ import layer2 from "../images/forest-mountains-PhotoRoom.png"
 import layer3 from "../images/1614556189_33-p-chashka-kofe-na-belom-fone-38 (1).png"
 import back_coffee_tree from "../images/facts/f1.png"
 import SliderCoffee from "../components/sliders/slider coffee/slider_coffee";
+import Gradient from "../components/main/components main/styles_main/gradient";
 
 const Main = () => {
     const [scroll, setScroll] = useState(0);
@@ -46,14 +47,12 @@ const Main = () => {
             <div className={styles.App}>
                 <div className={styles.wrapper}>
                     <Navbar></Navbar>
-                    <div className={styles.container_parallax}>
-                        {/*<img style={styleParallax} className={styles.layer1} src={coffeeBack}/>*/}
-
+                    <Gradient></Gradient>
                         <div className={styles.citata}>
                             <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
                             <p> - Александр Дюма</p>
                         </div>
-                    </div>
+
                     <div className={styles.content}>
 
                         {/*<Loader></Loader>*/}

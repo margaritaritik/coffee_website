@@ -15,6 +15,7 @@ body {
     background: linear-gradient(0deg, rgba(59, 35, 35, 0) 0%, rgba(95, 46, 18, 0) 36%, rgb(240 85 122 / 0%) 100%);
 }
 .wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -188,7 +189,7 @@ footer {
     width: 80vw;
     margin: 0 auto;
     color: #3b2323;
-    position: relative;
+    position: absolute;
     /* right: 116px; */
     top: 30vh;
     font-size: 3vw;
@@ -277,14 +278,7 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
     transform-origin: center;
 
 }
-.container_parallax{
-    perspective: 1000px;
-    overflow: hidden;
-    height: 100vh;
-    min-height: 500px;
-    transform-style: preserve-3d;
-    will-change: transform;
-}
+
 
 .content:before {
     content: "";
