@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/zerna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/zerna.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/facts/styles_facts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/stages of preparation/stages.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parallax" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -129,7 +125,7 @@
       <workItem from="1702445696287" duration="67945000" />
       <workItem from="1703171239462" duration="1664000" />
       <workItem from="1703411533750" duration="2738000" />
-      <workItem from="1703991576631" duration="19275000" />
+      <workItem from="1703991576631" duration="22411000" />
     </task>
     <servers />
   </component>
