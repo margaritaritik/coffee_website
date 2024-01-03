@@ -169,56 +169,60 @@ const SliderCoffee = () => {
     );
 
     return (
-        <div className={styles.container}>
-            <div className={styles.slider}>
-                <div  ref={ref_block} className={styles.slides}>
+        <div className={styles.container_slider}>
+            <div className={styles.container}>
+                <div className={styles.slider}>
+                    <div  ref={ref_block} className={styles.slides}>
 
 
-                    {listItems}
+                        {listItems}
+                    </div>
+
                 </div>
                 <div className={styles.prev} onClick={slide_left}></div>
                 <div className={styles.next} onClick={slide_right}></div>
+
+                {/*<div className={styles.itc_slider} data-autoplay="true" data-interval="7000" data-loop="true"*/}
+                {/*     data-slider={styles.itc_slider}>*/}
+                {/*    <div ref={ref_block} className={styles.itc_slider__wrapper}>*/}
+                {/*        <div className={styles.itc_slider__items}>*/}
+                {/*            <div ref={ref} className={styles.itc_slider__item}>*/}
+                {/*                1*/}
+                {/*            </div>*/}
+                {/*            <div className={styles.itc_slider__item}>*/}
+
+                {/*                2*/}
+                {/*            </div>*/}
+                {/*            <div className={styles.itc_slider__item}>*/}
+
+                {/*                3*/}
+                {/*            </div>*/}
+                {/*            <div className={styles.itc_slider__item}>*/}
+
+                {/*                4*/}
+                {/*            </div>*/}
+                {/*            <div className={styles.itc_slider__item}>*/}
+
+                {/*                5*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <button className={styles.itc_slider__btn && styles.itc_slider__btn_prev}></button>*/}
+                {/*    <button className={styles.itc_slider__btn && styles.itc_slider__btn_next}></button>*/}
+                {/*    <ol className={styles.itc_slider__indicators}>*/}
+                {/*        <li className={styles.itc_slider__indicator} data-slide-to="0"></li>*/}
+                {/*        <li className={styles.itc_slider__indicator} data-slide-to="1"></li>*/}
+                {/*        <li className={styles.itc_slider__indicator} data-slide-to="2"></li>*/}
+                {/*        <li className={styles.itc_slider__indicator} data-slide-to="3"></li>*/}
+                {/*        <li className={styles.itc_slider__indicator} data-slide-to="4"></li>*/}
+                {/*    </ol>*/}
+                {/*</div>*/}
+                {/*<button onClick={slide_right}>1</button>*/}
+                {/*<button onClick={slide_left}>2</button>*/}
+
             </div>
-
-            {/*<div className={styles.itc_slider} data-autoplay="true" data-interval="7000" data-loop="true"*/}
-            {/*     data-slider={styles.itc_slider}>*/}
-            {/*    <div ref={ref_block} className={styles.itc_slider__wrapper}>*/}
-            {/*        <div className={styles.itc_slider__items}>*/}
-            {/*            <div ref={ref} className={styles.itc_slider__item}>*/}
-            {/*                1*/}
-            {/*            </div>*/}
-            {/*            <div className={styles.itc_slider__item}>*/}
-
-            {/*                2*/}
-            {/*            </div>*/}
-            {/*            <div className={styles.itc_slider__item}>*/}
-
-            {/*                3*/}
-            {/*            </div>*/}
-            {/*            <div className={styles.itc_slider__item}>*/}
-
-            {/*                4*/}
-            {/*            </div>*/}
-            {/*            <div className={styles.itc_slider__item}>*/}
-
-            {/*                5*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <button className={styles.itc_slider__btn && styles.itc_slider__btn_prev}></button>*/}
-            {/*    <button className={styles.itc_slider__btn && styles.itc_slider__btn_next}></button>*/}
-            {/*    <ol className={styles.itc_slider__indicators}>*/}
-            {/*        <li className={styles.itc_slider__indicator} data-slide-to="0"></li>*/}
-            {/*        <li className={styles.itc_slider__indicator} data-slide-to="1"></li>*/}
-            {/*        <li className={styles.itc_slider__indicator} data-slide-to="2"></li>*/}
-            {/*        <li className={styles.itc_slider__indicator} data-slide-to="3"></li>*/}
-            {/*        <li className={styles.itc_slider__indicator} data-slide-to="4"></li>*/}
-            {/*    </ol>*/}
-            {/*</div>*/}
-            {/*<button onClick={slide_right}>1</button>*/}
-            {/*<button onClick={slide_left}>2</button>*/}
-
         </div>
+
     );
 };
 

@@ -45,10 +45,10 @@ const Main = () => {
         <>
             <div className={styles.App}>
                 <div className={styles.wrapper}>
-
+                    <Navbar></Navbar>
                     <div className={styles.container_parallax}>
                         {/*<img style={styleParallax} className={styles.layer1} src={coffeeBack}/>*/}
-                        <Navbar></Navbar>
+
                         <div className={styles.citata}>
                             <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
                             <p> - Александр Дюма</p>

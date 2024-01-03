@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,700&family=Jost&family=Play&display=swap');
 * {
     margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
     font-family: 'Jost', sans-serif;
@@ -6,6 +7,9 @@
 
 html,
 body {
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Play', sans-serif;
     height: 100%;
     overflow-x: hidden;
     background: linear-gradient(0deg, rgba(59, 35, 35, 0) 0%, rgba(95, 46, 18, 0) 36%, rgb(240 85 122 / 0%) 100%);
@@ -127,7 +131,7 @@ footer {
 /* свойства для кнопки "Закрыть" */
 .close {
     float: right;
-    font-family: sans-serif;
+    font-family: 'Play', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 1;
@@ -173,6 +177,9 @@ footer {
     /*top: -60vh;*/
 }
 .citata{
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Play', sans-serif;
     border-radius: 20px;
     /* filter: blur(1px); */
     padding: 38px 0px;
