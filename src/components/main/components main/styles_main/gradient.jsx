@@ -1,31 +1,15 @@
 import React from 'react';
 import styles from './gradient.module.css'
+import img_grad from "../../../../images/facts/f1.png"
+import cup from '../../../../images/zerna/1z.png'
 
 const Gradient = () => {
-    function randomNumberInRange() {
-        return `${Math.floor(Math.random() * (100 - 0 + 1)) + 0}%`;
-    }
-    function randomNumberInRangeY() {
-        return `${Math.floor(Math.random() * (100 - 0 + 1)) + 0}vh`;
-    }
     return (
         <div className={styles.container}>
 
             <div className={styles.container_items}>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
-                <span style = {{left:randomNumberInRange(),top:randomNumberInRangeY()}}></span>
+                <img src={img_grad}/>
+                <img src={cup}/>
             </div>
             <div className={styles.blur}></div>
         </div>

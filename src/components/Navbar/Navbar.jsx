@@ -30,9 +30,9 @@ const Navbar = () => {
                         <li>
                             <a href='/statistika'>СТАТИСТИКА</a>
                         </li>
-                        <li>
-                            <a href='/polza-i-vred'>ПОЛЬЗА И ВРЕД</a>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <a href='/polza-i-vred'>ПОЛЬЗА И ВРЕД</a>*/}
+                        {/*</li>*/}
                     </ul>
                     <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
                         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
