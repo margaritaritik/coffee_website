@@ -6,9 +6,14 @@ import Footer from "../components/footer/footer";
 import coffee1 from "../images/zerna/1z.png";
 import coffee2 from "../images/zerna/3z.png";
 import coffee3 from "../images/zerna/5z.png";
+import {useEffect} from "@types/react";
 
 
 const Zerna = () => {
+    useEffect(() => {
+        document.title = 'Все виды зерен кофе: от Аравии до Робусты☕';
+        document.getElementsByTagName("META")[3].content="Кофе является одним из самых популярных напитков в мире, и каждый вид зерен имеет свой уникальный вкус и аромат☕ Мы расскажем о различных видах зерен кофе, от Аравии до Робусты, и поможем вам выбрать свой любимый вкус";
+    }, []);
     return (
         <>
             <div className={styles.App}>

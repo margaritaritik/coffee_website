@@ -4,11 +4,15 @@ import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
 import coffee_map from "../images/statistika/map-stat.png"
+import {useEffect} from "@types/react";
 
 
 
 const Statistika = () => {
-
+    useEffect(() => {
+        document.title = 'Статистика кофе в мире: от потребления до производства☕';
+        document.getElementsByTagName("META")[3].content="Кофе – это не только любимый напиток многих людей, но и огромная индустрия, которая имеет значительный экономический вес ☕ Мы предоставим вам интересные факты и статистику о потреблении, производстве и экспорте кофе в мире";
+    }, []);
     return (
         <>
             <div className={styles.App}>

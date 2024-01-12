@@ -7,10 +7,15 @@ import coffee1 from "../images/napitki/1n.png";
 import coffee2 from "../images/napitki/2n.png";
 import coffee3 from "../images/napitki/3n.png";
 import coffee4 from "../images/napitki/4n.png";
+import {useEffect} from "@types/react";
 
 
 
 const Napitki = () => {
+    useEffect(() => {
+        document.title = 'Изучаем все виды кофейных напитков: от эспрессо до латте☕';
+        document.getElementsByTagName("META")[3].content="Узнайте больше о разнообразии кофейных напитков, которые можно приготовить из зерен кофе ☕ От крепкого эспрессо до нежного латте, мы расскажем о каждом напитке и его особенностях";
+    }, []);
     return (
         <>
 
