@@ -19,11 +19,7 @@
     will-change: transform;
 
 }
-header{
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-}
+
 .coffee{
     position: relative;
     display: flex;

@@ -130,19 +130,11 @@
 /*    transform: translate3d(19vw, 72vh, -1006px) scale(2);*/
 /*}*/
 
-header{
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-}
+
 .napitki {
     position: relative;
 }
-.block_img {
-    /*display: block;*/
-    /*width: 55%;*/
-    /*position: relative;*/
-}
+
 .block_img  {
     width: 55vw;
     height: 42vh;
@@ -150,13 +142,7 @@ header{
     object-fit: cover;
     padding: 1% 0;
 }
-/*.block_img img {*/
-/*    width: 100%;*/
-/*    height: 50vh;*/
-/*    object-position: 50% 50%;*/
-/*    object-fit: cover;*/
-/*    padding: 1% 0;*/
-/*}*/
+
 .block_img:nth-child(1) {
 
     background: #faacbc;

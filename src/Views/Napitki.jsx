@@ -35,28 +35,13 @@ const Napitki = () => {
                             <div className={styles.block_img}>
                                 <img className={styles.layer} src={coffee4}/>
                             </div>
-
-
-
-
-
-
                         </div>
-                        {/*<div id={styles.test}></div>*/}
-
-
 
                     </div>
 
                     <div className={styles.content}>
                         <h1>НАПИТКИ ИЗ ЗЕРЕН КОФЕ</h1>
-                        {/*<Header></Header>*/}
-
-                        {/*<Loader></Loader>*/}
-
                         <h2>Виды напитков кофе:</h2>
-
-
                      <ul>
                          <li>Эспрессо - маленький, концентрированный напиток, приготовленный из молотого кофе.</li>
                          <li>Американо - напиток, полученный путем добавления горячей воды к эспрессо</li>

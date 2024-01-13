@@ -12,13 +12,14 @@ const Blog = () => {
     return (
         <>
             <div className={styles.wrapper}>
+                <Navbar></Navbar>
                 <div className={styles.container_block}>
                     <div className={styles.coffee}>
 
 
                     </div>
 
-                    <Navbar></Navbar>
+
 
                 </div>
                 <div className={styles.content}>
