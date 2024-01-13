@@ -18,6 +18,7 @@ import Glyasse from "./Views/coffee/glyasse/glyasse";
 import Kappuchino from "./Views/coffee/kappuchino/kappuchino";
 import Latte from "./Views/coffee/latte/latte";
 import Loader from "./Loader";
+import Blog from "./Views/blog";
 const Component1 = () => {
     return <h1>foo</h1>;
 };
@@ -38,6 +39,7 @@ const Test = () => {
         { path: "zerna", element: <Zerna /> },
         { path: "statistika", element: <Statistika /> },
         { path: "history", element: <History /> },
+        { path: "blog", element: <Blog /> },
         { path: "napitki/latte", element: <Latte /> },
         { path: "napitki/kappuchino", element: <Kappuchino /> },
         { path: "napitki/glyasse", element: <Glyasse /> },
@@ -52,7 +54,7 @@ const Test = () => {
 function App() {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
-        setTimeout(() => setIsLoading(false), 500);
+        setTimeout(() => setIsLoading(false), 1000);
     }, []);
     return (
       <>

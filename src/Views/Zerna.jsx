@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from "./zerna.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
@@ -6,7 +6,7 @@ import Footer from "../components/footer/footer";
 import coffee1 from "../images/zerna/1z.png";
 import coffee2 from "../images/zerna/3z.png";
 import coffee3 from "../images/zerna/5z.png";
-import {useEffect} from "@types/react";
+
 
 
 const Zerna = () => {
