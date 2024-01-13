@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import styles from "./blog.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/footer/footer";
+import Slider_blog from "../components/sliders/slider blog/slider_blog.jsx";
 
 
 const Blog = () => {
@@ -15,7 +16,7 @@ const Blog = () => {
                 <Navbar></Navbar>
                 <div className={styles.container_block}>
                     <div className={styles.coffee}>
-
+                        <Slider_blog></Slider_blog>
 
                     </div>
 

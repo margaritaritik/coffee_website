@@ -3,57 +3,11 @@
 
 .container {
     /*max-width: 700px;*/
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 
 }
-
-.itc_slider__wrapper {
-    width: 80vw;
-    display: flex;
-    justify-content: space-between;
-
-}
-.itc_slider__wrapper div{
-    display: flex;
-    margin: 20px;
-}
-
-
-.itc_slider__item {
-    width: 200px;
-    /*flex: 0 0 50%;*/
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 7rem;
-    background-repeat: repeat-x;
-}
-
-.itc_slider__item:nth-child(1) {
-    background-color: #f44336;
-}
-
-.itc_slider__item:nth-child(2) {
-    background-color: #9c27b0;
-}
-
-.itc_slider__item:nth-child(3) {
-    background-color: #3f51b5;
-}
-
-.itc_slider__item:nth-child(4) {
-    background-color: #03a9f4;
-}
-
-.itc_slider__item:nth-child(5) {
-    background-color: #4caf50;
-}
-
-
 
 
 .slider {
@@ -65,19 +19,16 @@
 .slides {
     display: flex;
     overflow: hidden;
-    width: calc(80% * 5);
+    width: calc(100% * 5);
     transition: transform 0.5s ease-in-out;
 }
 
 .slide {
     flex-shrink: 0;
-    width:calc(80% / 9.8);
+    width:calc(100% / 5);
     height: 100%;
 }
 
-.active {
-    transform: translateX(0%);
-}
 
 .prev {
     position: absolute;
@@ -104,12 +55,6 @@
 }
 
 
-.container_slider{
-
-    /*width: 80vw;*/
-    /*margin: 0 auto;*/
-    /*overflow: hidden;*/
-}
 .container{
     position: relative;
     width: 100vw;
@@ -119,24 +64,19 @@
     /*animation-timing-function: cubic-bezier(.8,1.5,.2,-1);*/
 }
 .block{
-    width: 15vw;
+    width: 100vw;
     min-height: 500px;
-    margin: 0px 76px 0px 0px;
-}
-.container .block:last-child {
-    width: 15vw;
-    min-height: 500px;
-    margin: 0px 0px 0px 0px;
+    /*margin: 0px 76px 0px 0px;*/
 }
 
 .layer1 {
     text-align: center;
-    width: 250px;
-    height: 300px;
+    width: 100vw;
+    height: 100vh;
     border-radius: 26px;
-    margin: 120px auto;
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-
+    margin: 0px auto;
+    box-shadow: 0px 5px 10px 2px rgba(0, 147, 255, 0.2);
+background: #61dafb;
 }
 
 .layer1 p{

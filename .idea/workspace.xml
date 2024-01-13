@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sliders/slider blog/sliders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Napitki.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Napitki.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/blog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/blog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/blog.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/napitki.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/napitki.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/components main/styles_main/gradient.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/styles_main/gradient.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/components main/styles_main/gradient.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/components main/styles_main/gradient.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sliders/slider blog/slider_blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider blog/slider_blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sliders/slider blog/slider_blog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider blog/slider_blog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sliders/slider blog/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sliders/slider blog/sliders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +132,7 @@
       <workItem from="1703411533750" duration="2738000" />
       <workItem from="1703991576631" duration="33998000" />
       <workItem from="1704534877243" duration="594000" />
-      <workItem from="1705075821988" duration="5808000" />
+      <workItem from="1705075821988" duration="10162000" />
     </task>
     <servers />
   </component>

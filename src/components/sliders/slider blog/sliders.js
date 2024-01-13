@@ -1,4 +1,4 @@
-import styles from "./slider_coffee.module.css";
+import styles from "./slider_blog.module.css";
 import latte from "../../../images/slider/coffee/latte.png";
 import caputino from "../../../images/slider/coffee/caputino.png";
 import glasse from "../../../images/slider/coffee/glasse.png";
