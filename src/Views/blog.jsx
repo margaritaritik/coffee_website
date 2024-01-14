@@ -3,6 +3,7 @@ import styles from "./blog.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/footer/footer";
 import Slider_blog from "../components/sliders/slider blog/slider_blog.jsx";
+import Blog_item from "../components/blog/blog_item/blog_item";
 
 
 const Blog = () => {
@@ -24,7 +25,7 @@ const Blog = () => {
 
                 </div>
                 <div className={styles.content}>
-
+                    <Blog_item></Blog_item>
 
                     <Footer></Footer>
                 </div>
