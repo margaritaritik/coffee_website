@@ -23,6 +23,7 @@ import Gradient from "../components/main/components main/styles_main/gradient";
 
 const Main = () => {
     const [scroll, setScroll] = useState(0);
+    const [count,SetCount]=useState(0);
 
     const handleScroll = () => {
         setScroll(window.scrollY);
@@ -35,6 +36,7 @@ const Main = () => {
 
 
     useEffect(() => {
+
         document.title = 'Кофейный мир: новости, рецепты, история и культура кофе☕';
         document.getElementsByTagName("META")[3].content="Мы собрали для вас самую актуальную информацию и поделимся секретами, как приготовить идеальный кофе в домашних условиях ☕ На сайте \"Кофейный мир\" вы найдете все, что нужно знать о вашем любимом напитке!";
         window.addEventListener("scroll", handleScroll);
@@ -69,7 +71,6 @@ const Main = () => {
                             <SliderCoffee></SliderCoffee>
                         </div>
                     </div>
-
                     <Footer></Footer>
                 </div>
             </div>

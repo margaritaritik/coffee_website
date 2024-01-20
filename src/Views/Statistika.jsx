@@ -3,7 +3,7 @@ import styles from "./statistika.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import Coffee from "../components/animations/coffee_beans/CoffeeBeans";
 import Footer from "../components/footer/footer";
-import coffee_map from "../images/statistika/map-stat.png"
+import coffee_map from "../images/statistika/map_coffe.png"
 
 
 

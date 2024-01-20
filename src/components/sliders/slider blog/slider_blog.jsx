@@ -35,7 +35,7 @@ const SliderBlog = () => {
         <div ref={ref}  className={styles.slide}>
             <div className={styles.block}>
                 <div className={styles.layer1}>
-
+                    <img src={slide.image} />
                 </div>
             </div>
         </div>

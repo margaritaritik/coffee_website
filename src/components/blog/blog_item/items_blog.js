@@ -1,18 +1,16 @@
-import styles from "./slider_blog.module.css";
-import latte from "./images/view-of-3d-coffee-cup-with-roasted-beans.jpg";
-import caputino from "./images/coffee1.jpg";
-import glasse from "./images/view-of-3d-roasted-coffee-beans.jpg";
-import frape from "./images/view-of-3d-roasted-coffee-beans.jpg";
-import espresso from "./images/view-of-3d-roasted-coffee-beans.jpg";
-
+import styles from "./blog_item.module.css";
+import latte from "../../../images/slider/coffee/latte.png";
+import caputino from "../../../images/slider/coffee/caputino.png";
+import glasse from "../../../images/slider/coffee/glasse.png";
+import frape from "../../../images/slider/coffee/frape.png";
+import espresso from "../../../images/slider/coffee/espresso.png";
 const slider=[
     {
         id:1,
         name:"Латте",
         style_img:styles.latte,
-        style_back:styles.layer_latte,
         image:latte,
-        href:"latte"
+        href:"/napitki/latte"
     },
     {
         id:2,
@@ -20,7 +18,7 @@ const slider=[
         style_img:styles.caputino,
         style_back:styles.layer_caputino,
         image:caputino,
-        href:"kappuchino"
+        href:"/napitki/kappuchino"
     },
     {
         id:3,
@@ -28,7 +26,7 @@ const slider=[
         style_img:styles.glasse,
         style_back:styles.layer_glasse,
         image:glasse,
-        href:"glyasse"
+        href:"/napitki/glyasse"
     },
     {
         id:4,
@@ -36,7 +34,7 @@ const slider=[
         style_img:styles.frape,
         style_back:styles.layer_frape,
         image:frape,
-        href:"frappe"
+        href:"/napitki/frappe"
     },
     {
         id:5,
@@ -44,7 +42,7 @@ const slider=[
         style_img:styles.espresso,
         style_back:styles.layer_espresso,
         image:espresso,
-        href:"espresso"
+        href:"/napitki/espresso"
     }
 
 ];
