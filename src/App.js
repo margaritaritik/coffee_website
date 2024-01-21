@@ -58,7 +58,7 @@ function App() {
     }, []);
     return (
       <>
-          {isLoading && <Loader />}
+          {/*{isLoading && <Loader />}*/}
               <Router>
                   <Test/>
               </Router>

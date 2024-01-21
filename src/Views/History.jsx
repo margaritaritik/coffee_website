@@ -32,7 +32,6 @@ const History = () => {
                             </div>
 
                         </div>
-                        {/*<div id={styles.test}></div>*/}
 
                         <Navbar></Navbar>
 

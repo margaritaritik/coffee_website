@@ -8,8 +8,7 @@
 
 .content {
     flex: 1 0 auto;
-    margin: 0 auto;
-    width: 70vw
+
 }
 .container_block{
     perspective: 1000px;

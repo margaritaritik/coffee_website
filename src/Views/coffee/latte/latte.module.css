@@ -7,8 +7,7 @@
 
 .content {
     flex: 1 0 auto;
-    margin: 0 auto;
-    width: 70vw
+
 }
 .container_block{
     perspective: 1000px;
@@ -50,4 +49,7 @@ header{
     z-index: -1;
     transform: translate(-21vw, -5vh);
     filter: hue-rotate(64deg) grayscale(0.3) saturate(1.0);
+}
+.slider{
+
 }
