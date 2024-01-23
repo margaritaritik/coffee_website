@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/coffee5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/vk.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/History.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/espresso/espresso.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/frappe/frappe.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/kappuchino/kappuchino.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/latte/latte.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/latte/latte.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/coffee/latte/latte.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/history.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/history.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +130,9 @@
       <workItem from="1704534877243" duration="594000" />
       <workItem from="1705075821988" duration="17749000" />
       <workItem from="1705415391665" duration="8143000" />
-      <workItem from="1705814547805" duration="6093000" />
+      <workItem from="1705814547805" duration="7047000" />
+      <workItem from="1705844069408" duration="598000" />
+      <workItem from="1706025755415" duration="796000" />
     </task>
     <servers />
   </component>
