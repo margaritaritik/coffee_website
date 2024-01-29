@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d51bc7d2-8b2d-4e15-aa47-b53dad256c09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <recent name="D:\2023\coffee_website\src\Views\coffee\frappe" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -76,6 +78,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -93,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.build" />
       </list>
@@ -131,7 +144,7 @@
       <workItem from="1705415391665" duration="8143000" />
       <workItem from="1705814547805" duration="7047000" />
       <workItem from="1705844069408" duration="598000" />
-      <workItem from="1706025755415" duration="4340000" />
+      <workItem from="1706025755415" duration="6651000" />
     </task>
     <servers />
   </component>
