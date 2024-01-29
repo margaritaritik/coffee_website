@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2023\coffee_website" />
       <recent name="D:\2023\coffee_website\public" />
       <recent name="D:\2023\coffee_website\src\components\blog\blog_item" />
       <recent name="D:\2023\coffee_website\src\components\sliders\slider blog" />
       <recent name="D:\2023\coffee_website\src" />
-      <recent name="D:\2023\coffee_website\src\images\zerna" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2023\coffee_website\src\components\footer" />
@@ -131,7 +131,7 @@
       <workItem from="1705415391665" duration="8143000" />
       <workItem from="1705814547805" duration="7047000" />
       <workItem from="1705844069408" duration="598000" />
-      <workItem from="1706025755415" duration="3657000" />
+      <workItem from="1706025755415" duration="4340000" />
     </task>
     <servers />
   </component>
