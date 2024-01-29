@@ -177,35 +177,25 @@ footer {
 
 }
 
-.block_main img{
-    /*position: relative;*/
-    /*left: 71vw;*/
-    /*top: -60vh;*/
-}
+
 .citata{
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Jost', sans-serif;
     font-family: 'Play', sans-serif;
-
-
-    width: 80vw;
-    margin: 0 auto;
-    /*text-align: center;*/
+    font-weight: bold;
+    width: 50vw;
+    margin: 45vh auto;
     color: #3b2323;
     position: absolute;
-    /* right: 116px; */
-    top: 30vh;
-    font-size:30px;
+    font-size:35px;
 }
 .citata p{
-    margin: 0 auto;
+  text-align: end;
 }
 .citata p:last-child{
     color: #464246;
-margin-right: 10vw;
-    text-align: right;
-    /*right: 116px;*/
-    top: 20%;
+    font-size: 30px;
+
 }
 
 .content_main{
@@ -218,9 +208,6 @@ margin-right: 10vw;
 }
 
 .background_main{
-    /*width: 200px;*/
-    /*height: 200px;*/
-    /*background: #61dafb;*/
     height: 100vh;
     min-height: 500px;
     transform-style: preserve-3d;
@@ -285,23 +272,7 @@ transform:translateZ(-128px) translateX(269px) translateY(-85px) scale(1.06);
 
 }
 
-
-/*.content:before {*/
-/*    content: "";*/
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    height: 100px;*/
-/*    background: linear-gradient(rgba(86, 76, 67, 0.2), rgba(255, 192, 203, 0));*/
-/*    display: inline-block;*/
-/*    !*top: 100vh;*!*/
-/*padding: 0;*/
-/*}*/
-
 .container_parallax img{
-/*height: 100vh;*/
-/*    width: 100%;*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
 
     position: absolute;
     inset: -5vw;

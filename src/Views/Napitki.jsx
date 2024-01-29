@@ -7,6 +7,7 @@ import coffee1 from "../images/napitki/1n.png";
 import coffee2 from "../images/napitki/2n.png";
 import coffee3 from "../images/napitki/3n.png";
 import coffee4 from "../images/napitki/4n.png";
+import Slider from "../components/sliders/slider coffee/slider_coffee"
 
 
 
@@ -118,6 +119,9 @@ const Napitki = () => {
                         </div>
 
 
+                    </div>
+                    <div>
+                        <Slider></Slider>
                     </div>
 
                     <Footer></Footer>
