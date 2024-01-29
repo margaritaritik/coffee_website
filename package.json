@@ -2,7 +2,7 @@
   "homepage": "https://margaritaritik.github.io/coffee_website",
   "name": "2023",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mui/material": "^5.15.1",
     "@nivo/geo": "^0.84.0",
