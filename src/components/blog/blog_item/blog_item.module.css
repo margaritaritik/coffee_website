@@ -20,7 +20,8 @@ margin-top: 30px;
     height: 200px;
     /*height: 200px;*/
     background: #61dafb;
-    object-fit: cover;
+    object-fit: contain;
+
 }
 
 @media (max-width:500px) {

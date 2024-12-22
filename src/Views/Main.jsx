@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Header from "../components/header/header";
+import Slider_test from "../components/sliders/slider test/ProductCarousel";
 import Footer from "../components/footer/footer";
 import styles from './main.module.css';
 import Coffee from '../components/animations/coffee_beans/CoffeeBeans'
@@ -20,7 +21,7 @@ import layer3 from "../images/1614556189_33-p-chashka-kofe-na-belom-fone-38 (1).
 import back_coffee_tree from "../images/facts/f1.png"
 import SliderCoffee from "../components/sliders/slider coffee/slider_coffee";
 import Gradient from "../components/main/components main/styles_main/gradient";
-
+import BS from '../components/breadscrum/bs';
 const Main = () => {
     const [scroll, setScroll] = useState(0);
     const [count,SetCount]=useState(0);
@@ -49,6 +50,7 @@ const Main = () => {
             <div className={styles.App}>
                 <div className={styles.wrapper}>
                     <Navbar></Navbar>
+                
                     <Gradient></Gradient>
                         <div className={styles.citata}>
                             <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
@@ -69,6 +71,7 @@ const Main = () => {
                         </div>
                         <div className={styles.slider}>
                             <SliderCoffee></SliderCoffee>
+                            <Slider_test/>
                         </div>
                     </div>
                     <Footer></Footer>

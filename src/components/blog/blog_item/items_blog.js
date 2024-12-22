@@ -10,7 +10,8 @@ const slider=[
         name:"Латте",
         style_img:styles.latte,
         image:latte,
-        href:"/napitki/latte"
+        href:"/napitki/latte",
+        background_blog:"red"
     },
     {
         id:2,
@@ -18,7 +19,8 @@ const slider=[
         style_img:styles.caputino,
         style_back:styles.layer_caputino,
         image:caputino,
-        href:"/napitki/kappuchino"
+        href:"/napitki/kappuchino",
+        background_blog:"red"
     },
     {
         id:3,
@@ -26,7 +28,8 @@ const slider=[
         style_img:styles.glasse,
         style_back:styles.layer_glasse,
         image:glasse,
-        href:"/napitki/glyasse"
+        href:"/napitki/glyasse",
+        background_blog:"red"
     },
     {
         id:4,
@@ -34,7 +37,8 @@ const slider=[
         style_img:styles.frape,
         style_back:styles.layer_frape,
         image:frape,
-        href:"/napitki/frappe"
+        href:"/napitki/frappe",
+        background_blog:"green"
     },
     {
         id:5,
@@ -42,7 +46,8 @@ const slider=[
         style_img:styles.espresso,
         style_back:styles.layer_espresso,
         image:espresso,
-        href:"/napitki/espresso"
+        href:"/napitki/espresso",
+        background_blog:"blue"
     }
 
 ];

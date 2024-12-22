@@ -1,24 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,700&family=Jost&family=Play&display=swap');
-* {
-    margin: 0;/*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*/
-    font-family: 'Jost', sans-serif;
-    color: #5f2e12;
-}
 
-html,
-body {
-
-    font-family: 'Play', sans-serif;
-    height: 100%;
-    overflow-x: hidden;
-    background: linear-gradient(0deg, rgba(59, 35, 35, 0) 0%, rgba(95, 46, 18, 0) 36%, rgb(240 85 122 / 0%) 100%);
-}
-h2{
-    font-family: 'Play', sans-serif;
-    font-size: 30px;
-    text-transform: uppercase;
-    padding: 40px 0px 0px 0px;
-}
 .wrapper {
     position: relative;
     display: flex;
@@ -179,21 +159,20 @@ footer {
 
 
 .citata{
-    font-family: 'Advent Pro', sans-serif;
-    font-family: 'Jost', sans-serif;
     font-family: 'Play', sans-serif;
     font-weight: bold;
-    width: 50vw;
-    margin: 45vh auto;
+    /* width: 50vw; */
+    margin: 45vh 50px;
     color: #3b2323;
     position: absolute;
-    font-size:35px;
+    font-size: 35px;
+    
 }
 .citata p{
   text-align: end;
 }
 .citata p:last-child{
-    color: #464246;
+    color: #644b3c;
     font-size: 30px;
 
 }
@@ -359,4 +338,24 @@ z-index: 100;
 
 .slider{
 
+}
+
+@media (max-width:600px) {
+    .citata{font-family: 'Play', sans-serif;
+        font-weight: bold;
+     
+        margin: 45vh 20px;
+    
+        color: #3b2323;
+        position: absolute;
+    }
+    .citata p{
+    font-size: 28px;}
+
+    
+        .citata p:last-child{
+            color: #644b3c;
+            font-size: 20px;
+        
+        }
 }

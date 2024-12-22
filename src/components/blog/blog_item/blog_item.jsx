@@ -7,7 +7,7 @@ const BlogItem = () => {
     const listItems =data_blog.map(item =>
         <div className={styles.container_item}>
             <a href={item.href}>
-                <img className={styles.image_blog} src={item.image}/>
+                <img className={styles.image_blog} src={item.image} style={{background:item.background_blog}}/>
             </a>
             <div className={styles.title}>
                 <p>{item.name}</p>

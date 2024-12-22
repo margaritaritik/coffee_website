@@ -116,8 +116,15 @@
 
 }
 .fact_one h3:before{
-    content: "—";
-    font-size: 30px;
-    font-weight: bold;
+    content: "";
+    position: relative;
+    top: -5px;
+    left: -3px;
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background: #8f6c59;
+    border-radius: 10px;
+
     padding-right: 10px;
 }
