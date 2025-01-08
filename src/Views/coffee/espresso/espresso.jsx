@@ -6,13 +6,16 @@ import Navbar from "../../../components/Navbar/Navbar";
 import Footer from "../../../components/footer/footer";
 import  cup from "./cup_espresso.png"
 import  layer_cup from "../../../images/facts/f1.png"
-import SliderCoffee from "../../../components/sliders/slider coffee/slider_coffee";
+import SliderCoffee from "../../../components/sliders/slider test/ProductCarousel";
+import Menu from '../../../components/Navbar/Navbar'
 
 const Espresso = () => {
     return (
         <>
             <div className={styles.wrapper}>
+    
                 <div className={styles.container_block}>
+                <Navbar></Navbar>
                     {/*<Navbar></Navbar>*/}
                     <div className={styles.coffee}>
                         <div className={styles.coffee_title}>
@@ -23,8 +26,7 @@ const Espresso = () => {
                             <img src={cup}/>
                         </div>
                         <div className={styles.coffee_description}>
-                            <h2>Espresso</h2>
-                            <p>
+                              <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dignissimos dolor dolorem excepturi fuga non pariatur perspiciatis, totam. Aspernatur debitis distinctio iure modi nulla obcaecati possimus provident quos similique temporibus.
                             </p>
                         </div>

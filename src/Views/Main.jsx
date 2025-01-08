@@ -53,16 +53,16 @@ const Main = () => {
                 
                     <Gradient></Gradient>
                         <div className={styles.citata}>
-                            <p>"Кофе - это чудо, которое пробуждает ум и тело."</p>
+                            <p className={styles.quote}>"Кофе - это чудо, которое пробуждает ум и тело."</p>
                             <p> - Александр Дюма</p>
                         </div>
 
                     <div className={styles.content}>
 
                         {/*<Loader></Loader>*/}
-                        <div className={styles.stages}>
+                        {/* <div className={styles.stages}>
                             <Stages/>
-                        </div>
+                        </div> */}
                         <div className={styles.facts}>
                             <h2 className={styles.title_facts}>ФАКТЫ О КОФЕ</h2>
 
@@ -70,7 +70,7 @@ const Main = () => {
 
                         </div>
                         <div className={styles.slider}>
-                            <SliderCoffee></SliderCoffee>
+                            {/* <SliderCoffee></SliderCoffee> */}
                             <Slider_test/>
                         </div>
                     </div>

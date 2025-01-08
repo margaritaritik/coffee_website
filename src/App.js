@@ -21,21 +21,32 @@ import Kappuchino from "./Views/coffee/kappuchino/kappuchino";
 import Latte from "./Views/coffee/latte/latte";
 import Loader from "./Loader";
 import Blog from "./Views/blog";
+import ItemBlog from "./Views/articles/article";
+import URLBlog from './components/blog/blog_item/items_blog'
+
 const Component1 = () => {
     return <h1>foo</h1>;
 };
 
 const Component2 = () => {
-    useEffect(() => {
-        document.title = 'test';
-        document.description = 'test tesssssst';
-    }, []);
-    return <h1>bar</h1>;
+    const listItems =URLBlog.values.map(item =>
+
+       ( {
+        path:item.href,
+        element: <ItemBlog  props={{ name:item.name, anons:item.anons, image:item.image,description:item.description }} /> }
+    ));
+    const routes = useRoutes(listItems);
+    return routes;
 };
-const Test = () => {
-    const routes = useRoutes([
+const URL = () => {
+    const listItems =URLBlog.map(item =>
+
+        ( {
+         path:item.href,
+         element: <ItemBlog  props={{ name:item.name, anons:item.anons, image:item.image,description:item.description }} /> }
+     ));
+    const arr1=[
         { path: "/", element: <Main /> },
-        { path: "component2", element: <Component2 /> },
         { path: "napitki", element: <Napitki /> },
         { path: "polza-i-vred", element: <PolzaIVred /> },
         { path: "zerna", element: <Zerna /> },
@@ -48,7 +59,24 @@ const Test = () => {
         { path: "napitki/frappe", element: <Frappe /> },
         { path: "napitki/espresso", element: <Espresso/> },
 
-    ]);
+    ];
+    // const routes = useRoutes([
+    //     { path: "/", element: <Main /> },
+    //     { path: "napitki", element: <Napitki /> },
+    //     { path: "polza-i-vred", element: <PolzaIVred /> },
+    //     { path: "zerna", element: <Zerna /> },
+    //     { path: "statistika", element: <Statistika /> },
+    //     { path: "history", element: <History /> },
+    //     { path: "blog", element: <Blog /> },
+    //     { path: "napitki/latte", element: <Latte /> },
+    //     { path: "napitki/kappuchino", element: <Kappuchino /> },
+    //     { path: "napitki/glyasse", element: <Glyasse /> },
+    //     { path: "napitki/frappe", element: <Frappe /> },
+    //     { path: "napitki/espresso", element: <Espresso/> },
+
+    // ]);
+    const arr3 = [...arr1, ...listItems];
+    const routes = useRoutes(arr3);
     return routes;
 };
 
@@ -60,10 +88,12 @@ function App() {
     }, []);
     return (
       <>
-          {/*{isLoading && <Loader />}*/}
+          {/* {isLoading && <Loader />} */}
               <Router>
-                  <Test/>
+                  <URL/>
+                  
               </Router>
+              {/* <URLBlog/> */}
       </>
 
   );

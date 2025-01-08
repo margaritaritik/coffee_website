@@ -10,8 +10,8 @@ const slider=[
         name:"Латте",
         style_img:styles.latte,
         image:latte,
-        href:"/napitki/latte",
-        background_blog:"red"
+        href:"/blog/napitki/latte",
+        background_blog:"#D66F50"
     },
     {
         id:2,
@@ -19,8 +19,8 @@ const slider=[
         style_img:styles.caputino,
         style_back:styles.layer_caputino,
         image:caputino,
-        href:"/napitki/kappuchino",
-        background_blog:"red"
+        href:"/blog/napitki/kappuchino",
+        background_blog:"#807980"
     },
     {
         id:3,
@@ -28,8 +28,8 @@ const slider=[
         style_img:styles.glasse,
         style_back:styles.layer_glasse,
         image:glasse,
-        href:"/napitki/glyasse",
-        background_blog:"red"
+        href:"/blog/napitki/glyasse",
+        background_blog:"#D7E0DB"
     },
     {
         id:4,
@@ -37,8 +37,8 @@ const slider=[
         style_img:styles.frape,
         style_back:styles.layer_frape,
         image:frape,
-        href:"/napitki/frappe",
-        background_blog:"green"
+        href:"/blog/napitki/frappe",
+        background_blog:"#D99A71"
     },
     {
         id:5,
@@ -46,8 +46,23 @@ const slider=[
         style_img:styles.espresso,
         style_back:styles.layer_espresso,
         image:espresso,
-        href:"/napitki/espresso",
-        background_blog:"blue"
+        href:"/blog/napitki/espresso",
+        background_blog:"#D0CFBA"
+    }
+    ,
+    {
+        id:6,
+        name:"Как выбрать идеальный кофе для вашей кофемашины?",
+        title:"Как выбрать идеальный кофе для вашей кофемашины?",
+        desc:"description",
+        anons:"test test test ",
+        description:"test tsrt trtst",
+        content:"<div><p>test testov</p></div>",
+        style_img:styles.espresso,
+        style_back:styles.layer_espresso,
+        image:espresso,
+        href:"/blog/kak-vybrat-idealniy-kofe-dlya-vashey-kofemashiny",
+        background_blog:"#D0CFBA"
     }
 
 ];

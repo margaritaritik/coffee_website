@@ -87,7 +87,7 @@ const ProductCarousel = () => {
             <Slider {...settings}>
                 {products.map(product => (
                     <div className={styles.coffee_items} key={product.id}>
-                          <img className={styles.style_back_carousel} src={layer1} style={{filter:`hue-rotate(${randomNumberInRange(1,360)}deg)`,transform:`translate3d(0px, ${randomNumberInRange(-50,-20)}px, ${randomNumberInRange(-15,-8)}px) scale(0.8) rotate3d(${randomNumberInRange(-5,10)}, ${randomNumberInRange(4,10)}, ${randomNumberInRange(20,50)}, ${randomNumberInRange(1,360)}deg)`}}/>
+                          {/* <img className={styles.style_back_carousel} src={layer1} style={{filter:`hue-rotate(${randomNumberInRange(1,360)}deg)`,transform:`translate3d(0px, ${randomNumberInRange(-5,10)}px, ${randomNumberInRange(-28,7)}px) scale(0.8) rotate3d(${randomNumberInRange(0,20)}, ${randomNumberInRange(-1,1)}, ${randomNumberInRange(0,0)}, ${randomNumberInRange(130,170)}deg)`}}/> */}
                          
                        
                         <a style={{zIndex:10}} href={`/napitki/${product.href}`}>

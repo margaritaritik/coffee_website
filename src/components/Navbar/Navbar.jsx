@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from './navbar.module.css';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import Logo from './logo.svg';
+import Logo from './logo3.svg';
 import styles from "../header/header.module.css";
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className={style.container}>
                 <div className={style.box}>
                     <div className={style.logo_image}>
-                        <a href='/'><img src={Logo} className={style.logo} alt="логотип кофе" /></a>
+                        <a href='/'><img src={Logo}  className={style.logo} alt="логотип кофе!" /></a>
                     </div>
                     <ul
                         className={

@@ -19,6 +19,13 @@ display: flex !important;
     width: 100%;
     height:300px;
     border-radius: 15px;
+    transition: .2s;
+}
+
+
+.coffee_items:hover{
+    transition: .2s;
+    box-shadow: 0px 2px 20px 0px #5f2d1a7d;
 }
 
 .style_back_carousel{
@@ -28,5 +35,15 @@ display: flex !important;
     max-width: 213px;
     position: absolute;
     top: -5px;
+}
+
+.coffee_items a img {
+ 
+    transition: .2s;
+}
+
+.coffee_items:hover a img {
+    filter: drop-shadow(-8px -5px 11px #5f2d1a);
+    transition: .2s;
 }
 
